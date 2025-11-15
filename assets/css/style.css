@@ -86,3 +86,7 @@ header{
     font-weight: bold;
     font-size: 0.7rem;
 }
+
+.section01-home{
+    background-color: var(--azul04);
+}
