@@ -88,5 +88,43 @@ header{
 }
 
 .section01-home{
-    background-color: var(--azul04);
+    background-color: var(--azul05);
+    height: 37rem;
 }
+
+.section01-home h1{
+    color: var(--azul02);
+    font-size: 2.2rem;
+    margin-left: 5%;
+    
+}
+
+.section01-home h2{
+    margin-top: 2.5%;
+    margin-left: 5%;
+}
+
+#logo-section{
+    width: 6rem;
+    margin-left: 4%;
+    margin-top: 5%;
+    
+}
+
+#imagem-section{
+    margin-top:  -25.8%;
+    width: 38rem;
+    margin-left: 58%;
+}
+
+#button-home{
+    text-decoration: none;
+    border: none;
+    border-radius: 1rem;
+    padding: 10px 60px;
+    margin-left: 5%;
+    margin-top: 3.5%;
+    background-color: var(--branco);
+   
+}
+
