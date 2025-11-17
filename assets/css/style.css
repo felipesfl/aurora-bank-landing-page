@@ -128,3 +128,41 @@ header{
    
 }
 
+.section02-empresas{
+    background-color: var(--azul01);
+    height: 8rem;
+    text-align: center;
+    padding: 40px 0 0px 0;
+}
+
+.section02-empresas h1{
+    color: var(--branco);
+    font-size: 1rem;
+    margin-bottom: -10px;
+    font-weight: 600;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.logos img{
+    height: 7rem;
+    transition: .3s;
+}
+
+.logos img:hover{
+    transform: scale(1.1);
+}
+
+#ifood{
+    height: 40px;
+}
+
+#natura{
+    height: 40px;
+}
