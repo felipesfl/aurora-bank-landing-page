@@ -168,3 +168,22 @@ header{
     height: 40px;
 }
 
+.image-div{
+    background-color: var(--azul01);
+    width: 22rem;
+    height: 30rem;
+    margin-top: 6%;
+    margin-left: 10%;
+    border-radius: 4rem;
+}
+
+.image-div img{
+    width: 48rem;
+    margin-left: -57%;
+    margin-top: -10%;
+}
+
+#logo01{
+    width: 10rem;
+    margin-left: 45%;
+}
