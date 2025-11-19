@@ -8,7 +8,7 @@
    --azul05: #deeff9;
    --branco: #FFFF;
    --preto: #0000;
-   --cinza: #F1F1F1;
+   --cinza: #7c7c7c;
 }
 
 *{
@@ -187,3 +187,39 @@ header{
     width: 10rem;
     margin-left: 45%;
 }
+
+.div-right{
+    margin-top: -35%;
+}
+
+.div-right h1{
+    font-size: 1.7rem;
+    margin-left: 47%;
+    margin-top: -3%;
+    font-weight: 600;
+}
+
+.div-right p{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--cinza);
+    margin-left: 47%;
+    margin-top: 0.5%;
+}
+
+.div-right2{
+     margin-left: 47%;
+}
+
+.div-right2 img{
+    width: 3.5rem;
+    margin-left: -1%;
+    margin: 2px 0 2px 0;
+}
+
+.div-right2 h2{
+    font-size: 0.9rem;
+}
+
+
+
