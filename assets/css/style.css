@@ -211,15 +211,14 @@ header{
      margin-left: 47%;
 }
 
-.div-right2 img{
-    width: 3.5rem;
-    margin-left: -1%;
-    margin: 2px 0 2px 0;
-}
-
 .div-right2 h2{
-    font-size: 0.9rem;
+    font-size: 1rem;
+    font-weight: 400;
+    margin:  2.5rem 2rem 2rem 0;
 }
 
 
+.div-right2 span{
+    font-weight: 600;
+}
 
