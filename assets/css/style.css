@@ -9,7 +9,7 @@
    --branco: #FFFF;
    --preto: #0000;
    --cinza: #7c7c7c;
-   --cinza02: #cacaca;
+   --cinza02: #fcfcfc;
 }
 
 *{
@@ -235,9 +235,8 @@ header{
     
 }
 
-/* ----- TEXTO ----- */
 .div-texto {
-    width: 50%;                 /* garante espaço igual ao da referência */
+    width: 50%;                
 }
 
 .div-texto h1 {
@@ -260,7 +259,6 @@ header{
     font-weight: 700;
 }
 
-/* ----- BOTÃO ----- */
 .button {
     display: inline-block;
     margin-top: 30px;
@@ -277,16 +275,107 @@ header{
     background: var(--azul03);
 }
 
-/* ----- IMAGENS ----- */
+
 .image-app {
     width: 40%;
     display: flex;
-    justify-content: center;   /* centraliza como na imagem */
+    justify-content: center;   
     gap: 20px;
     margin-top: 10%;
 }
 
 .image-app img {
-    width: 30rem;              /* tamanho idêntico ao mockup da referência */
+    width: 30rem;              
     filter: grayscale(100%) opacity(0.9);
+}
+
+.section-auroraempresas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 8%;
+    background-color: var(--cinza02);
+    height: 27rem;
+}
+
+.div-left img{
+    width: 500px;
+    border-radius: 18px;
+    object-fit: cover;
+    margin-top: 20%;
+}
+
+.div-right-empresas{
+    width: 50%;
+    padding-left: 50px;
+}
+
+.logo-empresas{
+    width: 200px;
+    margin-bottom: 5px;
+    margin-left: -5%;
+    
+}
+
+.div-right-empresas h1{
+    font-size: 32px;
+    color: preto;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: -7%;
+}
+
+.div-right-empresas h2{
+    font-size: 18px;
+    color: preto;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.div-right-empresas span{
+     font-weight: 600;
+     color: preto;
+}
+
+.container-vantagens{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.div-vantagens{
+    background: var(--branco);
+    padding: 20px;
+    border-radius: 15px;
+    width: 170px;
+    text-align: center;
+    box-shadow: 0 2px 6px var(--cinza02);
+}
+
+.div-vantagens img{
+    width: 35px;
+    margin-bottom: 10px;
+}
+
+.div-vantagens h1{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--azul02);
+    margin-top: 5%;
+}
+
+.button-empresas{
+    padding: 14px 35px;
+    background: var(--azul02);
+    color: var(--branco);
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-empresas:hover{
+    background: var(--azul03);
 }
