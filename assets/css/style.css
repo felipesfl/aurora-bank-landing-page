@@ -57,7 +57,7 @@ header{
 .nav-item{
     text-decoration: none;
     font-size: 0.7rem;
-    color: var(--preto);
+    color: #0000;
     font-weight: 400;
 }
 
@@ -381,3 +381,99 @@ header{
     background: var(--azul03);
 }
 
+.section-avaliacoes{
+    background: var(--azul01);
+    padding: 50px 0;
+    color: var(--branco);
+    position: relative;
+}
+
+.avaliacoes-container{
+    width: 90%;
+    max-width: 1300px;
+    margin: auto;
+    position: relative;
+}
+
+.avaliacoes-container h2{
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+.carrosel{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.card{
+    background: var(--branco);
+    color: #0000;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 12px #0000;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.top img{
+    width: 50px;
+    height: 50px;
+    background-color: var(--cinza02);
+    border-radius: 8px;
+}
+
+.user-info strong{
+    font-size: 16px;
+}
+
+.user-info span{
+    font-size: 14px;
+    color: var(--cinza);
+}
+
+.text{
+    margin: 20px 0;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.stars{
+    display: flex;
+    gap: 4px;
+    margin-top: 10px;
+}
+
+.stars img{
+    width: 18px;
+    height: 18px;
+}
+
+.nav{
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: var(--azul01);
+    color: var(--branco);
+    border: none;
+    padding: 8px 12px;
+    font-size: 22px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.prev{
+    right: 50px;  
+}
+
+.next{
+    right: 0;
+}
+
+.nav:hover{
+    background-color: var(--cinza02);
+}
