@@ -295,7 +295,7 @@ header{
     justify-content: space-between;
     padding: 60px 8%;
     background-color: var(--cinza02);
-    height: 27rem;
+    height: 32rem;
 }
 
 .div-left img{
@@ -381,99 +381,95 @@ header{
     background: var(--azul03);
 }
 
-.section-avaliacoes{
+.section-avaliacoes {
     background: var(--azul01);
-    padding: 50px 0;
+    padding: 60px 80px;
     color: var(--branco);
-    position: relative;
 }
 
-.avaliacoes-container{
-    width: 90%;
-    max-width: 1300px;
-    margin: auto;
-    position: relative;
+.header-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
 }
 
-.avaliacoes-container h2{
-    font-size: 26px;
-    margin-bottom: 30px;
+.header-area h2 {
+    font-size: 28px;
+    font-weight: 700;
 }
 
-.carrosel{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+.avaliacoes-arrows {
+    display: flex;
+    gap: 12px;
 }
 
-.card{
-    background: var(--branco);
-    color: #0000;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0px 5px 12px #0000;
-}
-
-.top{
+.arrow {
+    background: transparent;
+    border: none;
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+    cursor: pointer;
     display: flex;
     align-items: center;
-    gap: 15px;
+    justify-content: center;
 }
 
-.top img{
-    width: 50px;
-    height: 50px;
-    background-color: var(--cinza02);
+.arrow img {
+    width: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.card {
+    background: var(--branco);
+    width: 360px;
+    border-radius: 18px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    color: #000;
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
     border-radius: 8px;
 }
 
-.user-info strong{
-    font-size: 16px;
-}
-
-.user-info span{
-    font-size: 14px;
-    color: var(--cinza);
-}
-
-.text{
-    margin: 20px 0;
+.user {
     font-size: 15px;
-    line-height: 1.5;
+    font-weight: 600;
 }
 
-.stars{
+.local {
+    font-size: 13px;
+    color: #777;
+}
+
+.text {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.stars {
     display: flex;
     gap: 4px;
-    margin-top: 10px;
 }
 
-.stars img{
+.stars img {
     width: 18px;
     height: 18px;
-}
-
-.nav{
-    position: absolute;
-    top: 60px;
-    right: 0;
-    background: var(--azul01);
-    color: var(--branco);
-    border: none;
-    padding: 8px 12px;
-    font-size: 22px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.prev{
-    right: 50px;  
-}
-
-.next{
-    right: 0;
-}
-
-.nav:hover{
-    background-color: var(--cinza02);
 }
