@@ -473,3 +473,76 @@ header{
     width: 18px;
     height: 18px;
 }
+
+.section-segurança{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 80px 8%;
+}
+
+.seguranca-left img{
+    width: 280px;
+    transform: translate(200px);
+}
+
+.seguranca-box{
+    background: var(--azul02);
+    padding: 50px 60px;
+    border-radius: 20px;
+    color: var(branco);
+    width: 100%;
+    max-width: 850px;
+}
+
+.seguraca-box h2{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.seguranca-box p{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 35px;
+}
+
+.seguranca-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.card-seguranca{
+    background: var(--branco);
+    color: #000;
+    width: 160px;
+    height: 90px;
+    padding: 15px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14px;
+    box-shadow: 0 3px 10px var(--cinza);
+}
+
+.card-seguranca span{
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.card-seguranca button{
+    align-self: flex-end;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.card-seguranca button img{
+    width: 16px;
+}
+
+
