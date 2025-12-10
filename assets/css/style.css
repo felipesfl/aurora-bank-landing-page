@@ -480,7 +480,8 @@ header{
     align-items: center;
     gap: 40px;
     margin: 60px auto;
-    width: 95%;
+    width: 100%;
+    height: 600px;
 }
 
 .seguranca-img img {
@@ -500,7 +501,7 @@ header{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 10%;
     
 }
@@ -546,3 +547,78 @@ header{
     height: 30px;
     align-self: flex-end;
 }
+
+.footer {
+    background: #000;
+    padding: 60px 6%;
+    color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.footer-cool {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+}
+
+.footer-cool h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.footer-cool a {
+    color: #d1d1d1;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 15px;
+    transition: .3s;
+    display: inline-block;
+}
+
+.footer-cool a:hover {
+    color: #fff;
+}
+
+.footer-cool p {
+    margin: 3px 0;
+    color: #ddd;
+}
+
+.footer-cool span {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.footer-cool .mt {
+    margin-top: 20px;
+}
+
+/* Ícones sociais */
+.footer-social {
+    margin-top: 17%;
+    display: flex;
+    gap: 18px;
+    margin-left: 2%;
+}
+
+.footer-social img {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.footer-social img:hover {
+    opacity: 0.7;
+}
+
+
+
+
