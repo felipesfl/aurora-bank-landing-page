@@ -169,6 +169,9 @@ header{
     height: 40px;
 }
 
+.section03-para-você{
+    height: 18rem;
+}
 .image-div{
     background-color: var(--azul01);
     width: 22rem;
