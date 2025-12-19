@@ -436,6 +436,12 @@ header{
     padding: 25px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.08);
     color: #000;
+    transition: transform 0.3ms ease, box-shadow 0.3s ease;
+}
+
+.card.hover{
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px var(--cinza);
 }
 
 .topo {
@@ -622,6 +628,33 @@ header{
     opacity: 0.7;
 }
 
+.reveal{
+    opacity: 0;
+    transform: translate(40px);
+    transition: all 0.6s ease;
+}
 
+.reveal.active{
+    opacity: 1;
+    transform: translate(0);
+}
+
+.cta {
+  position: relative;
+}
+
+.cta::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(0,123,255,.4); }
+  70% { box-shadow: 0 0 0 15px rgba(0,123,255,0); }
+  100% { box-shadow: 0 0 0 0 rgba(0,123,255,0); }
+}
 
 
