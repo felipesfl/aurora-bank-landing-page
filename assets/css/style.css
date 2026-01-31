@@ -27,7 +27,7 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6rem;
-    height: 0.6rem;
+    height: 1.5em;
 }
 
 .logo-bar{
@@ -37,8 +37,9 @@ header{
 
 .logo-bar img{
     margin-top: 1px;
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
+    margin-left: 90%;
 }
 
 .nav-list{
@@ -50,15 +51,19 @@ header{
     display: flex;
     justify-content: center;
     list-style: none;
-    gap: 50px;
+    gap: 100px;
 }
 
 
 .nav-item{
     text-decoration: none;
-    font-size: 0.7rem;
-    color: #0000;
+    font-size: 0.9rem;
     font-weight: 400;
+}
+
+.nav-link{
+    color: black;
+    text-decoration: none;
 }
 
 .login-button{
@@ -76,8 +81,9 @@ header{
 .login-button button{
     border: none;
     background-color: var(--azul01);
-    padding: 10px 15px;
+    padding: 15px 20px;
     border-radius: 20px;
+    
 
 }
 
@@ -85,12 +91,12 @@ header{
     text-decoration: none;
     color: var(--branco);
     font-weight: bold;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 }
 
 .section01-home{
     background-color: var(--azul05);
-    height: 37rem;
+    height: 52rem;
 }
 
 .section01-home h1{
@@ -114,9 +120,9 @@ header{
 }
 
 #imagem-section{
-    margin-top:  -22.9%;
-    width: 38rem;
-    margin-left: 58%;
+    margin-top:  -15.7%;
+    width: 52rem;
+    margin-left: 50%;
 }
 
 #button-home{
@@ -170,7 +176,7 @@ header{
 }
 
 .section03-para-você{
-    height: 18rem;
+    height: 50rem;
 }
 .image-div{
     background-color: var(--azul01);
