@@ -175,8 +175,56 @@ header{
     height: 40px;
 }
 
+#title-section03{
+    margin-top: 5.5rem;
+    margin-left: 3%;
+    font-size: 1.8rem;
+}
+
 .section03-para-você{
     height: 50rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+
+}
+
+.cards-beneficios{
+    flex: 1 1 100px;
+    margin: 10px;
+    border: 3px solid var(--cinza02);
+    height: 10rem;
+    width: 3rem;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+
+.cards-beneficios h2{
+    line-height: 1.9rem;
+}
+
+
+#title-beneficios{
+    margin-top: 5%;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+#descricao{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+#image-section{
+    width: 2.2rem;
+}
+
+#seta-section{
+    width: 2,1rem;
+    margin-top: 5%;
+    margin-left: 90%;
+    cursor: pointer;
 }
 .image-div{
     background-color: var(--azul01);
