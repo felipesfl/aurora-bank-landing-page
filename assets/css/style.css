@@ -182,7 +182,7 @@ header{
 }
 
 .section03-para-você{
-    height: 50rem;
+    height: 31rem;
     display: flex;
     flex-wrap: wrap;
     padding: 1.5rem;
@@ -226,6 +226,27 @@ header{
     margin-left: 90%;
     cursor: pointer;
 }
+
+.section04-dia-a-dia{
+     height: 31rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+}
+
+
+.container-section04{
+     flex: 1 1 100px;
+    margin: 10px;
+    border: 3px solid var(--cinza02);
+    height: 10rem;
+    width: 3rem;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+
+
 .image-div{
     background-color: var(--azul01);
     width: 22rem;
@@ -710,5 +731,3 @@ header{
   70% { box-shadow: 0 0 0 15px rgba(0,123,255,0); }
   100% { box-shadow: 0 0 0 0 rgba(0,123,255,0); }
 }
-
-
