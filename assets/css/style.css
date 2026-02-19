@@ -12,6 +12,8 @@
    --cinza02: #fcfcfc;
 }
 
+/* CSS - MENU */
+
 *{
     padding: 0;
     margin: 0;
@@ -94,6 +96,8 @@ header{
     font-size: 0.9rem;
 }
 
+/* CSS - Section 01 - Home */
+
 .section01-home{
     background-color: var(--azul05);
     height: 52rem;
@@ -136,6 +140,8 @@ header{
    
 }
 
+/* CSS - Section 02 - Empresas parceiras */
+
 .section02-empresas{
     background-color: var(--azul01);
     height: 8rem;
@@ -175,14 +181,17 @@ header{
     height: 40px;
 }
 
+/* CSS - Section 03 - Beneficios Aurora Bank */
+
 #title-section03{
     margin-top: 5.5rem;
     margin-left: 3%;
     font-size: 1.8rem;
 }
 
+
 .section03-para-você{
-    height: 31rem;
+    height: 28rem;
     display: flex;
     flex-wrap: wrap;
     padding: 1.5rem;
@@ -192,7 +201,7 @@ header{
 .cards-beneficios{
     flex: 1 1 100px;
     margin: 10px;
-    border: 3px solid var(--cinza02);
+    border: 1px solid var(--cinza);
     height: 10rem;
     width: 3rem;
     margin: 1rem;
@@ -225,6 +234,14 @@ header{
     margin-top: 5%;
     margin-left: 90%;
     cursor: pointer;
+} 
+
+
+/* CSS - Section 04 - Dia a Dia */
+
+#h1-section04{
+    text-align: center;
+    padding: 0.5em;
 }
 
 .section04-dia-a-dia{
@@ -236,228 +253,34 @@ header{
 
 
 .container-section04{
-     flex: 1 1 100px;
+    flex: 1 1 50px;
     margin: 10px;
-    border: 3px solid var(--cinza02);
-    height: 10rem;
-    width: 3rem;
+    border: 1px solid var(--cinza);
+    height: 22rem;
     margin: 1rem;
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 1.5rem;
-}
-
-
-.image-div{
-    background-color: var(--azul01);
-    width: 22rem;
-    height: 30rem;
-    margin-top: 6%;
-    margin-left: 16%;
-    border-radius: 4rem;
-}
-
-.image-div img{
-    width: 48rem;
-    margin-left: -57%;
-    margin-top: -10%;
-}
-
-#logo01{
-    width: 10rem;
-    margin-left: 45%;
-}
-
-.div-right{
-    margin-top: -27%;
-}
-
-.div-right h1{
-    font-size: 1.7rem;
-    margin-left: 47%;
-    margin-top: -3%;
-    font-weight: 600;
-}
-
-.div-right p{
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: var(--cinza);
-    margin-left: 47%;
-    margin-top: 0.5%;
-}
-
-.div-right2{
-     margin-left: 47%;
-}
-
-.div-right2 h2{
-    font-size: 1rem;
-    font-weight: 400;
-    margin:  2.5rem 2rem 2rem 0;
-}
-
-
-.div-right2 span{
-    font-weight: 600;
-}
-
-.div-texto{
-    margin-top: 5%;
-}
-
-.section-appaurora {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 80px 8%;
-    
-}
-
-.div-texto {
-    width: 50%;                
-}
-
-.div-texto h1 {
-    font-size: 32px;
-    font-weight: 700;
-    color: preto;
-    line-height: 1.3;
-    margin-top: 10%;
-}
-
-.div-texto h2 {
-    margin-top: 25px;
-    font-size: 18px;
-    color: preto;
-    line-height: 1.6;
-    font-weight: 300;
-}
-
-.div-texto span {
-    font-weight: 700;
-}
-
-.button {
-    display: inline-block;
-    margin-top: 30px;
-    padding: 16px 28px;
-    background: var(--azul04);
-    color: preto;
-    font-weight: 600;
-    border-radius: 10px;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.button:hover {
-    background: var(--azul03);
-}
-
-
-.image-app {
-    width: 40%;
-    display: flex;
-    justify-content: center;   
-    gap: 20px;
-    margin-top: 10%;
-}
-
-.image-app img {
-    width: 30rem;              
-    
-}
-
-.section-auroraempresas{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 60px 8%;
-    background-color: var(--cinza02);
-    height: 32rem;
-}
-
-.div-left img{
-    width: 500px;
-    border-radius: 18px;
-    object-fit: cover;
-    margin-top: 20%;
-}
-
-.div-right-empresas{
-    width: 50%;
-    padding-left: 50px;
-}
-
-.logo-empresas{
-    width: 200px;
-    margin-bottom: 5px;
-    margin-left: -5%;
-    
-}
-
-.div-right-empresas h1{
-    font-size: 32px;
-    color: preto;
-    font-weight: 700;
-    margin-bottom: 15px;
-    margin-top: -7%;
-}
-
-.div-right-empresas h2{
-    font-size: 18px;
-    color: preto;
-    font-weight: 400;
-    line-height: 1.6;
-    margin-bottom: 25px;
-}
-
-.div-right-empresas span{
-     font-weight: 600;
-     color: preto;
-}
-
-.container-vantagens{
-    display: flex;
-    gap: 20px;
-    margin-bottom: 30px;
-}
-
-.div-vantagens{
     background: var(--branco);
-    padding: 20px;
-    border-radius: 15px;
-    width: 170px;
+}
+
+.container-section04 img{
+    width: 25rem;
+    margin-left: 10%;
+}
+
+.container-section04 h2{
+    font-weight: 300;
     text-align: center;
-    box-shadow: 0 2px 6px var(--cinza02);
-}
-
-.div-vantagens img{
-    width: 35px;
-    margin-bottom: 10px;
-}
-
-.div-vantagens h1{
-    font-size: 16px;
-    font-weight: 600;
-    color: var(--azul02);
+    font-size: 1.1rem;
     margin-top: 5%;
+
 }
 
-.button-empresas{
-    padding: 14px 35px;
-    background: var(--azul02);
-    color: var(--branco);
-    font-size: 16px;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-    transition: 0.3s;
-    margin-left: 35%;
+.container-section04 span{
+    font-weight: 700;
 }
 
-.button-empresas:hover{
-    background: var(--azul03);
-}
+/* CSS - Section - Avaliações */
 
 .section-avaliacoes {
     background: var(--azul01);
@@ -558,79 +381,7 @@ header{
     height: 18px;
 }
 
-
-.seguranca-section {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    margin: 60px auto;
-    width: 100%;
-    height: 600px;
-}
-
-.seguranca-img img {
-    width: 320px;
-    margin-left: 78%;
-    margin-top: 15%;
-}
-
-.seguranca-box {
-    background: var(--azul02);
-    padding: 50px 40px;
-    border-radius: 20px;
-    color: var(--branco);
-    width: 100%;
-    max-width: 1050px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-top: 2%;
-    margin-left: 10%;
-    
-}
-
-.seguranca-box h2 {
-    font-size: 32px;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-.seguranca-box p {
-    max-width: 650px;
-    font-size: 17px;
-    line-height: 1.4;
-}
-
-.seguranca-cards {
-    margin-top: 35px;
-    display: flex;
-    gap: 25px;
-}
-
-.seg-card {
-    background: var(--branco);
-    color: black;
-    width: 150px;
-    height: 130px;
-    padding: 22px;
-    border-radius: 12px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-shadow: 0 4px 10px var(--cinza);
-}
-
-.seg-card h3 {
-    font-size: 17px;
-    font-weight: 700;
-}
-
-.seg-card .arrow {
-    width: 30px;
-    height: 30px;
-    align-self: flex-end;
-}
+/* CSS - Rodapé */
 
 .footer {
     background: #000;
@@ -703,31 +454,3 @@ header{
     opacity: 0.7;
 }
 
-.reveal{
-    opacity: 0;
-    transform: translate(40px);
-    transition: all 0.6s ease;
-}
-
-.reveal.active{
-    opacity: 1;
-    transform: translate(0);
-}
-
-.cta {
-  position: relative;
-}
-
-.cta::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0% { box-shadow: 0 0 0 0 rgba(0,123,255,.4); }
-  70% { box-shadow: 0 0 0 15px rgba(0,123,255,0); }
-  100% { box-shadow: 0 0 0 0 rgba(0,123,255,0); }
-}
