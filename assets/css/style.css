@@ -115,6 +115,8 @@ header{
     border-radius: 2rem;
     margin:  0 80px 70px;
     margin-left: 15%;
+    background: linear-gradient(var(--azul01),var(--azul02),var(--azul03), var(--azul04));
+    
 }
 
 .container-section h1{
@@ -152,9 +154,7 @@ header{
     background-color: var(--branco);
 }
 
-#slide-cliente{
-    
-}
+
 #image-cliente{
     margin-top: -22.7%;
     width: 25rem;
@@ -265,45 +265,87 @@ header{
 
 /* CSS - Section 04 - Dia a Dia */
 
-#h1-section04{
-    text-align: center;
-    padding: 0.5em;
-}
-
 .section04-dia-a-dia{
-     height: 31rem;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 1.5rem;
+    height: 50rem;
+    padding: 80px 20px;
 }
 
 
-.container-section04{
-    flex: 1 1 50px;
-    margin: 10px;
-    border: 1px solid var(--cinza);
-    height: 22rem;
-    margin: 1rem;
-    padding: 1.5rem;
-    border-radius: 1.5rem;
-    background: var(--branco);
-}
-
-.container-section04 img{
-    width: 25rem;
-    margin-left: 10%;
-}
-
-.container-section04 h2{
-    font-weight: 300;
+.div-title{
     text-align: center;
-    font-size: 1.1rem;
-    margin-top: 5%;
-
+    margin-bottom: 80px;
 }
 
-.container-section04 span{
-    font-weight: 700;
+.div-title h2{
+    display: block;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 10px;;
+}
+
+.div-title h1{
+    font-size: 2rem;
+    font-weight: 600;   
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+.div-left{
+    flex: 1 ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.div-dia h1{ 
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.div-dia h2{
+    font-size: 1rem;
+    font-weight: 300;
+    max-width: 350px;
+    margin-bottom: 23px;
+}
+
+.div-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.div-right img{
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+}
+
+.line{
+    width: 40px;
+    min-height: 60px;
+    background-color: #0077a9;
+    flex-shrink: 0;
+}
+
+/* CSS - Section - Empreendedor */
+.section05-empreendedor{
+    height: 20rem;
+    padding: 80px 20px;
+}
+
+.div-title-e{
+    
 }
 
 /* CSS - Section - Avaliações */
@@ -318,7 +360,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 45px;
 }
 
 .header-area h2 {
