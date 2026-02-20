@@ -99,18 +99,31 @@ header{
 /* CSS - Section 01 - Home */
 
 .section01-home{
-    background-color: var(--azul05);
-    height: 52rem;
+    background-color: var(--branco);
+    height: 47rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    margin-top: 3%;
 }
 
-.section01-home h1{
-    color: var(--azul02);
+.container-section{
+    margin-top: 50%;
+    height: 40rem;
+    background-color: var(--azul04);
+    width: 80rem;
+    border-radius: 2rem;
+    margin:  0 80px 70px;
+    margin-left: 15%;
+}
+
+.container-section h1{
+    color: var(--branco);
     font-size: 2.2rem;
     margin-left: 5%;
     
 }
-
-.section01-home h2{
+.container-section h2{
     margin-top: 2.5%;
     margin-left: 5%;
     font-weight: 300;
@@ -124,8 +137,8 @@ header{
 }
 
 #imagem-section{
-    margin-top:  -15.7%;
-    width: 52rem;
+    margin-top:  -20%;
+    width: 40rem;
     margin-left: 50%;
 }
 
@@ -137,9 +150,22 @@ header{
     margin-left: 5%;
     margin-top: 3.5%;
     background-color: var(--branco);
-   
 }
 
+#slide-cliente{
+    
+}
+#image-cliente{
+    margin-top: -22.7%;
+    width: 25rem;
+    margin-left: 62%;
+}
+
+#imagem-empreendedor{
+    margin-top: -17.4%;
+    width: 50rem;
+    margin-left: 47%;
+}
 /* CSS - Section 02 - Empresas parceiras */
 
 .section02-empresas{
