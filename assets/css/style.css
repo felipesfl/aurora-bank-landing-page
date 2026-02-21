@@ -331,12 +331,7 @@ header{
     object-fit: cover;
 }
 
-.line{
-    width: 40px;
-    min-height: 60px;
-    background-color: #0077a9;
-    flex-shrink: 0;
-}
+
 
 /* CSS - Section - Empreendedor */
 .section05-empreendedor{
@@ -508,6 +503,72 @@ header{
     height: 18px;
 }
 
+/*CSS - Section - Segurança */
+.section06-seguranca{
+    height: 30rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+}
+
+#title-section06{
+    margin-top: 5.5rem;
+    margin-left: 8%;
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+}
+
+.container-seguranca{
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+
+.content-seguranca{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.div-left-seguranca{
+    flex: 1;
+}
+
+.div-left-seguranca img{
+    width: 40rem;
+    object-fit: cover;
+}
+
+.div-right-seguranca{
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.cards-seguranca{
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid var(--cinza);
+    transition: 0.3s;
+}
+
+.cards-seguranca img{
+    width: 2rem;
+    margin-bottom: 15px;
+}
+
+.cards-seguranca h1{
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.cards-seguranca h2{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+}
 /* CSS - Rodapé */
 
 .footer {
