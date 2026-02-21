@@ -505,7 +505,7 @@ header{
 
 /*CSS - Section - Segurança */
 .section06-seguranca{
-    height: 30rem;
+    height: 43rem;
     display: flex;
     flex-wrap: wrap;
     padding: 1.5rem;
@@ -568,6 +568,50 @@ header{
     font-size: 14px;
     font-weight: 300;
     line-height: 1.5;
+}
+
+/* CSS - App Aurora */
+.section07-app-aurora{
+    height: 97rem;
+}
+
+.section07-app-aurora img{
+      margin-left: 30%;
+      margin-top: -5%;
+}
+
+.app-frase{
+    text-align: center;
+}
+
+.app-frase h1{
+    font-size: 3rem;
+    line-height: 1.7;
+}
+
+.app-frase h2{
+    font-size: 1.7rem;
+    font-weight: 300;
+    line-height: 4.5;
+}
+
+.app-frase h3{
+    font-size: 2.2rem;
+    line-height: 2;
+    color: var(--azul02);
+}
+
+
+
+.app-frase button{
+    margin-top: 3%;
+    padding: 10px;
+    width: 20rem;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    border: none;
+    color: var(--branco);
+    background-color: var(--azul01);
 }
 /* CSS - Rodapé */
 
