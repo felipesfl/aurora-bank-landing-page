@@ -105,7 +105,87 @@ header{
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 auto;
     margin-top: 3%;
+    overflow: hidden;
 }
+
+.section01-home input{
+    display: none;
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+}
+.manual-btn{
+    border: 2px solid var(--cinza02);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 80%;
+    transition: 0.5s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: var(--cinza02);
+}
+
+#radio1:checked ~ .container-section{
+    margin-left: 20%;
+}
+
+#radio2:checked ~ .container-section{
+    margin-left: -85%;
+}
+
+#radio3:checked ~ .container-section{
+    margin-left: -180%;
+}
+
+.navigation-auto div{
+     border: 2px solid var(--branco);
+     padding: 5px;
+     border-radius: 10px;
+     cursor: pointer;
+     transition: 0.5s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 31.5%;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~.navigation-auto .auto-btn1{
+    background-color: var(--cinza02);
+}
+
+#radio2:checked ~.navigation-auto .auto-btn2{
+    background-color: var(--cinza02);
+}
+
+#radio3:checked ~.navigation-auto .auto-btn3{
+    background-color: var(--cinza02);
+}
+
+
+
 
 .container-section{
     margin-top: 50%;
@@ -612,6 +692,7 @@ header{
     border: none;
     color: var(--branco);
     background-color: var(--azul01);
+    cursor: pointer;
 }
 /* CSS - Rodapé */
 
