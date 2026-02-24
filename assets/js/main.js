@@ -14,3 +14,20 @@ function nextImage() {
     document.getElementById("radio" + count).checked = true;
 
 }
+
+
+const cards = document.querySelector('.cards');
+const nexrBtn = document.querySelector('.btn-next');
+const prevBtn = document.querySelector('.btn-prev');
+
+let = currentIndex = 0;
+
+const cardWidht = 400;
+nextBtn.addEventListener('click', () => {
+     const totalCards = document.querySelectorAll('.card').length;
+     
+     if(currentIndex < totalCards -1){
+        currentIndex++;
+        cards.computedStyleMap.transform = `translateX(-${currentIndex * cardWidht}px)`;
+     }    
+})
