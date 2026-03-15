@@ -1,4 +1,4 @@
-let count = 1
+let count = 1;
 document.getElementById("radio1").checked = true;
 
 setInterval(function() {
@@ -15,19 +15,3 @@ function nextImage() {
 
 }
 
-
-const cards = document.querySelector('.cards');
-const nexrBtn = document.querySelector('.btn-next');
-const prevBtn = document.querySelector('.btn-prev');
-
-let = currentIndex = 0;
-
-const cardWidht = 400;
-nextBtn.addEventListener('click', () => {
-     const totalCards = document.querySelectorAll('.card').length;
-     
-     if(currentIndex < totalCards -1){
-        currentIndex++;
-        cards.computedStyleMap.transform = `translateX(-${currentIndex * cardWidht}px)`;
-     }    
-})
