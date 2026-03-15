@@ -155,6 +155,155 @@ header{
     color: var(--branco);
 }
 
+/* Section 02 - Para Você */
+.section-clientes{
+    height: 50rem;
+    padding: 80px 20px;
+    margin-top: 3%;
+}
+
+
+.div-title{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.div-title h2{
+    display: block;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 10px;;
+}
+
+.div-title h1{
+    font-size: 2rem;
+    font-weight: 600;   
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+.div-left{
+    flex: 1 ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+#title-link{
+    font-size: 1.5rem;
+     margin-left: 22%;
+}
+
+#link-voce{
+    color: var(--azul03);
+    font-size: 1rem;
+    font-weight: 300;
+    margin-left: -21%;
+}
+
+.div-paravoce h1{ 
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.div-paravoce h2{
+    font-size: 1rem;
+    font-weight: 300;
+    max-width: 350px;
+    margin-bottom: 23px;
+}
+
+.div-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.div-right img{
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+}
+
+
+/* Section 03 - Clientes 02 */
+.section-clientes02{
+    height: 52rem;
+    padding: 80px 20px;
+}
+
+.div-title-e{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.div-title-e h2{
+    display: block;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 10px;;
+}
+
+.div-title-e h1{
+    font-size: 2rem;
+    font-weight: 600;   
+}
+
+.content-c{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+.div-left-c{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.div-left-c img{
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+}
+
+.div-right-c{
+    flex: 1 ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.div-paravoce2 h1{ 
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    color: black;
+}
+
+.div-paravoce2 h2{
+    font-size: 1rem;
+    font-weight: 300;
+    max-width: 350px;
+    margin-bottom: 23px;
+}
+
+/* Section App */
 
 
 }
