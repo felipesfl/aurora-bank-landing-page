@@ -304,6 +304,199 @@ header{
 }
 
 /* Section App */
+.section-app{
+    height: 38em;
+}
+.container-sectionapp{
+    margin-top: 3%;
+    height: 27rem;
+    width: 70rem;
+    border-radius: 2rem;
+    margin-left: 23%;
+    background: var(--azul01);
+}
+
+#celular-app{
+    width: 65rem;
+    margin-top: -10%;
+    margin-left:  -15%;
+}
+
+.container-sectionapp h1{
+    color: var(--branco);
+    font-size: 1.5rem;
+    margin-top: -30%;
+    margin-left: 50%;
+    line-height: 2;
+}
+
+.container-sectionapp h2{
+    margin-left: 50%;
+    color: var(--branco);
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.div-loja-app{
+    display: flex;
+    flex: 2;
+    margin-left: 50%;
+    margin-top: 2%;
+}
+
+#play-store{
+    width: 10rem;
+    margin-left: 2%;
+}
+
+#apple-store{
+    width: 10rem;
+}
+
+/* CSS - Section Beneficios */
+
+#title-section{
+    margin-top: 5.5rem;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+}
+
+.section-beneficios{
+    height: 24rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+
+}
+
+.cards-beneficios{
+    flex: 1 1  200px;
+    margin: 30px;
+    height: 12rem;
+    width: 12rem;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    background: var(--azul04);
+    margin-left: 4%;
+}
+
+.cards-beneficios h2{
+    line-height: 1.9rem;
+}
+
+
+#title-beneficios{
+    margin-top: 5%;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+#descricao{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+#image-section{
+    width: 2.2rem;
+}
+
+.beneficios-buttons{
+    display: flex;
+    margin-top: 18%;
+}
+
+.arrow {
+    background: transparent;
+    border: none;
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow img {
+    width: 20px;
+}
+
+
+/* CSS - Rodapé */
+.footer {
+    background: #000;
+    padding: 60px 6%;
+    color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.footer-cool {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+}
+
+.footer-cool h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.footer-cool a {
+    color: #d1d1d1;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 15px;
+    transition: .3s;
+    display: inline-block;
+}
+
+.footer-cool a:hover {
+    color: #fff;
+}
+
+.footer-cool p {
+    margin: 3px 0;
+    color: #ddd;
+}
+
+.footer-cool span {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.footer-cool .mt {
+    margin-top: 20px;
+}
+
+/* Ícones sociais */
+.footer-social {
+    margin-top: 17%;
+    display: flex;
+    gap: 18px;
+    margin-left: 2%;
+}
+
+.footer-social img {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.footer-social img:hover {
+    opacity: 0.7;
+}
+
+
 
 
 }
