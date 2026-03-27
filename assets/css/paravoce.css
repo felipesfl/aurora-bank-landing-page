@@ -424,6 +424,79 @@ header{
 }
 
 
+/* CSS - Section - Cartôes */
+.section-cartoes {
+    background-color: var(--azul04);
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider-container {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.cards-cartoes {
+    min-width: 300px;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    background: var(--branco);
+}
+
+
+.cards-cartoes img{
+      margin-left: -13%;
+}
+/* BOTÕES */
+.btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: black;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* CSS - Duvidas -Section */
+.section-duvidas{
+    height: 10rem;
+}
+
+.section-duvidas h1{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 5%;
+    line-height: 3;
+}
+
+.section-duvidas h2{
+    text-align: center;
+    font-size: 1rem;
+    color: var(--azul01);
+    font-weight: 300;
+}
+
+
+
+
 /* CSS - Rodapé */
 .footer {
     background: #000;
