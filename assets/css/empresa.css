@@ -19,6 +19,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* CSS - Menu */
 header{
     border-bottom: 1px solid var(--cinza02);
     position: relative;
@@ -90,6 +91,7 @@ header{
 }
 
 
+/* CSS - Section Home */
 .section-home{
     height: 47rem;
     display: grid;
@@ -156,3 +158,292 @@ header{
     background-color: var(--azul02);
     color: var(--branco);
 }
+
+
+/* CSS - Section Para sua Empresa */
+#h1-title{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.section-para-empresa{
+    height: 80rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div-empresa-main{
+    height: 35rem;
+    width: 70rem;
+    background: var(--azul01);
+    margin-left: 22%;
+    margin-top: 5%;
+    border-radius: 2rem;
+}
+
+.div-content-empresa{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 17%;
+}
+.card-empresa{
+    flex: 1 1 1 200px;
+    margin: 10px;
+    height: 12rem;
+    width: 18rem;
+    margin: 0.5rem;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    background: var(--azul04);
+    margin-left: 4%;
+}
+
+
+/* CSS - Section 03 */
+.section03-empresa{
+   height: 60rem;
+   background: linear-gradient(var(--azul03),var(--azul03),var(--azul04), var(--branco));
+}
+
+.section03-empresa h1{
+    text-align: center;
+    padding: 4rem;
+    color: var(--branco);
+}
+
+.content-empresa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+.div-left-{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    
+    
+}
+
+.card-empresa-left{
+    width: 20rem;
+    height: 40rem;
+    background: var(--branco);
+    border-radius: 2rem;
+}
+
+.card-empresa-right{
+    width: 60rem;
+    height: 40rem;
+    background: var(--branco);
+    border-radius: 2rem;
+}
+
+
+.div-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+/* CSS - Section 04 */
+.section-empresa{
+    height: 50rem;
+    padding: 80px 20px;
+    margin-top: 3%;
+}
+
+
+.div-title{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.div-title h2{
+    display: block;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 10px;;
+}
+
+.div-title h1{
+    font-size: 2rem;
+    font-weight: 600;   
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+.div-left{
+    flex: 1 ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+#title-link{
+    font-size: 1.5rem;
+     margin-left: 22%;
+}
+
+#link-voce{
+    color: var(--azul03);
+    font-size: 1rem;
+    font-weight: 300;
+    margin-left: -21%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.div-right img{
+    width: 100%;
+    max-width: 400px;
+}
+
+.div-paraempresa h1{ 
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.div-paraempresa h2{
+    font-size: 1rem;
+    font-weight: 300;
+    max-width: 350px;
+    margin-bottom: 23px;
+}
+
+.div-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.div-right img{
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+}
+
+
+/* CSS - Section Promoções */
+.section-promocoes{
+    height: 70rem;
+}
+
+.section-promocoes h1{
+     text-align: center;
+     padding: 5rem;
+     font-weight: 600;
+}
+
+.botao-promocao{
+    background: #000;
+    margin-left: 40%;
+    height: 5rem;
+    width: 25rem;
+    border-radius: 3rem;
+
+}
+
+.div-main{
+    height: 35rem;
+    width: 70rem;
+    background: var(--azul01);
+    margin-left: 22%;
+    margin-top: 5%;
+    border-radius: 2rem;
+}
+
+
+
+.footer {
+    background: #000;
+    padding: 60px 6%;
+    color: #fff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.footer-cool {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+}
+
+.footer-cool h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.footer-cool a {
+    color: #d1d1d1;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 15px;
+    transition: .3s;
+    display: inline-block;
+}
+
+.footer-cool a:hover {
+    color: #fff;
+}
+
+.footer-cool p {
+    margin: 3px 0;
+    color: #ddd;
+}
+
+.footer-cool span {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.footer-cool .mt {
+    margin-top: 20px;
+}
+
+/* Ícones sociais */
+.footer-social {
+    margin-top: 17%;
+    display: flex;
+    gap: 18px;
+    margin-left: 2%;
+}
+
+.footer-social img {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.footer-social img:hover {
+    opacity: 0.7;
+}
+
+
