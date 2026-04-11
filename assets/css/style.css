@@ -120,7 +120,7 @@ header{
     margin-left: 25%;
 }
 .manual-btn{
-    border: 2px solid var(--cinza02);
+    border: 2px solid transparent;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -133,7 +133,7 @@ header{
 }
 
 .manual-btn:hover{
-    background-color: var(--cinza02);
+    background-color: var(--azul01);
 }
 
 #radio1:checked ~ .container-section{
@@ -149,7 +149,7 @@ header{
 }
 
 .navigation-auto div{
-     border: 2px solid var(--branco);
+     border: 2px solid transparent;
      padding: 5px;
      border-radius: 10px;
      cursor: pointer;
@@ -158,13 +158,16 @@ header{
 
 .navigation-auto{
     position: absolute;
-    width: 800px;
-    margin-top: 31.5%;
+    width: 200px;
+    margin-top: 31%;
     display: flex;
     justify-content: center;
     display: flex;
     justify-content: center;
-    margin-left: 25%;
+    margin-left: 40.3%;
+    background: var(--branco);
+    border-radius: 2rem;
+    padding: 0.5rem;
 }
 
 .navigation-auto div:not(:last-child){
@@ -172,15 +175,15 @@ header{
 }
 
 #radio1:checked ~.navigation-auto .auto-btn1{
-    background-color: var(--cinza02);
+    background-color: var(--azul04);
 }
 
 #radio2:checked ~.navigation-auto .auto-btn2{
-    background-color: var(--cinza02);
+    background-color: var(--azul04);
 }
 
 #radio3:checked ~.navigation-auto .auto-btn3{
-    background-color: var(--cinza02);
+    background-color: var(--azul04);
 }
 
 
@@ -208,6 +211,7 @@ header{
     margin-top: 2.5%;
     margin-left: 5%;
     font-weight: 300;
+    color: var(--branco);
 }
 
 #logo-section{
@@ -221,6 +225,23 @@ header{
     margin-top:  -20%;
     width: 40rem;
     margin-left: 50%;
+    
+}
+
+#slide-cliente{
+   background-image: url("../images/cliente2.jpg");
+   background-size: cover;
+   background-position: center;
+}
+
+#slide-empreendedor{
+      min-height: 600px;
+   background:
+      linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+      url("../images/barista2.jpg");
+   background-size: cover;
+   background-position: center right;
+   background-repeat: no-repeat;
 }
 
 #button-home{
@@ -359,6 +380,13 @@ header{
 .div-title h1{
     font-size: 2rem;
     font-weight: 600;   
+}
+
+.div-title h2{
+    display: block;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 10px;;
 }
 
 .content{
@@ -578,7 +606,7 @@ header{
 
 /*CSS - Section - Segurança */
 .section06-seguranca{
-    height: 43rem;
+    height: 39rem;
     display: flex;
     flex-wrap: wrap;
     padding: 1.5rem;
@@ -642,6 +670,40 @@ header{
     font-weight: 300;
     line-height: 1.5;
 }
+
+
+/* CSS - Section - Compras */
+.section-compras{
+    height: 40rem;
+}
+
+.div-compras{
+    height: 33rem;
+    width: 70rem;
+    background: linear-gradient(rgba(100, 100, 100, 0.45), rgba(90, 90, 90, 0.45)), url("../images/smiley-man-working-from-home-laptop.jpg");
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    margin-left: 25%;
+    border-radius: 2rem;
+
+}
+
+.div-compras h1{
+    font-weight: 300;
+    color: var(--branco);
+    margin-left: 5%;
+    padding: 15rem;
+
+}
+
+.div-compras h2{
+    margin-top: -17%;
+    margin-left: 27%;
+    color: var(--branco);
+    font-weight: 400;
+}
+
 
 /* CSS - App Aurora */
 .section07-app-aurora{

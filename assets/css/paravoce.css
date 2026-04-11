@@ -402,33 +402,36 @@ header{
     width: 2.2rem;
 }
 
-.beneficios-buttons{
-    display: flex;
-    margin-top: 18%;
+
+
+/* CSS - Section - Compras */
+.section-compras{
+    height: 40rem;
 }
 
-.arrow {
-    background: transparent;
-    border: none;
-    width: 42px;
-    height: 42px;
-    border-radius: 8px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+.div-compras{
+    height: 33rem;
+    width: 70rem;
+    background: linear-gradient(rgba(100, 100, 100, 0.45), rgba(29, 29, 29, 0.45)), url("../images/smiley-man-working-from-home-laptop.jpg");
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    margin-left: 25%;
+    border-radius: 2rem;
 
-.arrow img {
-    width: 20px;
 }
 
 
 /* CSS - Section - Cartôes */
 .section-cartoes {
-    background-color: var(--azul04);
+    background-color: black;
     padding: 4rem 0;
     text-align: center;
+    color: var(--branco);
+}
+
+#title-cartoes{
+    padding-bottom: 2rem;
 }
 
 .slider {
@@ -440,40 +443,36 @@ header{
 .slider-container {
     display: flex;
     transition: transform 0.5s ease;
+    margin-left: 7%;
 }
 
 .cards-cartoes {
-    min-width: 300px;
+    width: 20rem;
+    height: 32rem;
     margin: 1rem;
     padding: 2rem;
     border-radius: 1.5rem;
-    background: var(--branco);
+    background: transparent;
+    border: 1px solid var(--cinza02);
+    
 }
 
 
 .cards-cartoes img{
-      margin-left: -13%;
-}
-/* BOTÕES */
-.btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: black;
-    color: white;
-    border: none;
-    padding: 1rem;
-    cursor: pointer;
-    z-index: 10;
+      margin-left: -12%;
+      width: 25rem;
 }
 
-.prev {
-    left: 10px;
+.cards-cartoes h1{
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 
-.next {
-    right: 10px;
+.cards-cartoes h2{
+    font-size: 1rem;
+    font-weight: 300;
 }
+
 
 /* CSS - Duvidas -Section */
 .section-duvidas{
@@ -499,9 +498,9 @@ header{
 
 /* CSS - Rodapé */
 .footer {
-    background: #000;
+    background: var(--cinza02);
     padding: 60px 6%;
-    color: #fff;
+    color: var(--cinza);
 }
 
 .footer-container {

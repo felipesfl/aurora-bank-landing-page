@@ -343,6 +343,23 @@ header{
     object-fit: cover;
 }
 
+/* CSS - Section - Compras */
+.section-compras{
+    height: 40rem;
+}
+
+.div-compras{
+    height: 33rem;
+    width: 70rem;
+    background: linear-gradient(rgba(100, 100, 100, 0.45), rgba(29, 29, 29, 0.45)), url("../images/smiley-man-working-from-home-laptop.jpg");
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    margin-left: 25%;
+    border-radius: 2rem;
+
+}
+
 
 /* CSS - Section Promoções */
 .section-promocoes{
