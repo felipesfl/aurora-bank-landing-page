@@ -292,6 +292,26 @@ header{
    background-repeat: no-repeat;
 }
 
+.card-empresa-right h1{
+    color: var(--azul01);
+    margin-top: 5%;
+    margin-left: -55%;
+}
+
+#notificacao1{
+    margin-top: -13%;
+    margin-left: 15%;
+}
+#notificacao2{
+    margin-top: -30%;
+    margin-left: 15%;
+}
+
+#notificacao3{
+    margin-top: -30%;
+    margin-left: 15%;
+}
+
 
 .div-right{
     flex: 1;
@@ -450,6 +470,23 @@ header{
 
 }
 
+.div-compras img{
+    margin-top: 30%;
+    margin-left: 10%;
+}
+
+.div-compras h1{
+    color: var(--branco);
+    margin-left: 10%;
+    font-weight: 500;
+
+}
+
+.div-compras h2{
+    color: var(--branco);
+    margin-left: 10%;
+    font-weight: 300;
+}
 
 /* CSS - Section Promoções */
 .section-promocoes{

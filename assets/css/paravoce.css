@@ -421,6 +421,25 @@ header{
 
 }
 
+.div-compras img{
+    margin-top: 30%;
+    margin-left: 10%;
+}
+
+.div-compras h1{
+    color: var(--branco);
+    margin-left: 10%;
+    font-weight: 500;
+
+}
+
+.div-compras h2{
+    color: var(--branco);
+    margin-left: 10%;
+    font-weight: 300;
+}
+
+
 
 /* CSS - Section - Cartôes */
 .section-cartoes {
