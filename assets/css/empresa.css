@@ -181,6 +181,33 @@ header{
     border-radius: 2rem;
 }
 
+.div-empresa-main img{
+     width: 55rem;
+     margin-left: 35%;
+}
+
+.div-empresa-main img:hover{
+     transform: scale(1.1);
+}
+
+.div-empresa-main h1{
+    color: var(--branco);
+    font-size: 2.2rem;
+    margin-left: 5%;
+    margin-top: -50%;
+}
+
+.div-empresa-main button{
+    text-decoration: none;
+    border: none;
+    border-radius: 1rem;
+    padding: 10px 60px;
+    margin-left: 5%;
+    margin-top: 3.5%;
+    background-color: var(--branco);
+    color: var(--azul01);
+}
+
 .div-content-empresa{
     display: flex;
     flex-wrap: wrap;
@@ -199,6 +226,14 @@ header{
     border-radius: 1.5rem;
     background: var(--azul04);
     margin-left: 4%;
+}
+
+.card-empresa img{
+    width: 2.2rem;
+}
+
+.card-empresa h2{
+    line-height: 1.9rem;
 }
 
 
@@ -237,15 +272,24 @@ header{
 .card-empresa-left{
     width: 20rem;
     height: 40rem;
-    background: var(--branco);
+    background: var(--azul01);
+    border-radius: 2rem;
+}
+
+.card-empresa-left img{
+    width: 20rem;
+    margin-top: 50%;
     border-radius: 2rem;
 }
 
 .card-empresa-right{
     width: 60rem;
     height: 40rem;
-    background: var(--branco);
+    background-image: url("../images/roupas.jpg");
     border-radius: 2rem;
+    background-size: cover;
+   background-position: center right;
+   background-repeat: no-repeat;
 }
 
 
@@ -253,7 +297,53 @@ header{
     flex: 1;
     display: flex;
     justify-content: center;
+}#title-section{
+    margin-top: 5.5rem;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
 }
+
+.section-beneficios{
+    height: 24rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+
+}
+
+.cards-beneficios{
+    flex: 1 1  200px;
+    margin: 30px;
+    height: 12rem;
+    width: 12rem;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    background: var(--azul04);
+    margin-left: 4%;
+}
+
+.cards-beneficios h2{
+    line-height: 1.9rem;
+}
+
+
+#title-beneficios{
+    margin-top: 5%;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+#descricao{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+#image-section{
+    width: 2.2rem;
+}
+
 
 /* CSS - Section 04 */
 .section-empresa{
