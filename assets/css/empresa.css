@@ -278,7 +278,7 @@ header{
 
 .card-empresa-left img{
     width: 20rem;
-    margin-top: 50%;
+    margin-top: -50%;
     border-radius: 2rem;
 }
 
@@ -490,7 +490,7 @@ header{
 
 /* CSS - Section Promoções */
 .section-promocoes{
-    height: 70rem;
+    height: 30rem;
 }
 
 .section-promocoes h1{
@@ -499,23 +499,22 @@ header{
      font-weight: 600;
 }
 
-.botao-promocao{
-    background: #000;
-    margin-left: 40%;
-    height: 5rem;
-    width: 25rem;
-    border-radius: 3rem;
-
+.section-promocoes button{
+     margin-left: 40%;
+     border: none;
+     background: black;
+     color: var(--branco);
+     font-size: 1.5rem;
+     padding: 1.5rem;
+     border-radius: 2rem;
 }
 
-.div-main{
-    height: 35rem;
-    width: 70rem;
-    background: var(--azul01);
-    margin-left: 22%;
-    margin-top: 5%;
-    border-radius: 2rem;
+button span{
+    color: var(--azul01);
+    font-weight: 700;
+    font-size: 2.5rem;
 }
+
 
 
 
