@@ -36,6 +36,7 @@ header{
     padding: 1.5rem 6rem;
     height: 1.5em;
     margin:  0 170px;
+    align-items: center;
 }
 
 .logo-bar{
@@ -74,10 +75,6 @@ header{
     text-decoration: none;
 }
 
-.login-button{
-    margin-top: -15px;
-}
-
 
 .login-button button{
     border: none;
@@ -113,7 +110,8 @@ header{
 
 .manual-navigation{
     position: absolute;
-    width: 800px;
+    width: 100%;
+    bottom: 20px;
     margin-top: -40px;
     display: flex;
     justify-content: center;
@@ -222,7 +220,7 @@ header{
 }
 
 #imagem-section{
-    margin-top:  -20%;
+    transform:translateY(-253.5px);
     width: 40rem;
     margin-left: 50%;
     
@@ -235,10 +233,8 @@ header{
 }
 
 #slide-empreendedor{
-      min-height: 600px;
-   background:
-      linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-      url("../images/barista2.jpg");
+   min-height: 600px;
+   background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("../images/barista2.jpg");
    background-size: cover;
    background-position: center right;
    background-repeat: no-repeat;
@@ -254,18 +250,6 @@ header{
     background-color: var(--branco);
 }
 
-
-#image-cliente{
-    margin-top: -22.7%;
-    width: 25rem;
-    margin-left: 62%;
-}
-
-#imagem-empreendedor{
-    margin-top: -17.4%;
-    width: 50rem;
-    margin-left: 47%;
-}
 /* CSS - Section 02 - Empresas parceiras */
 
 .section02-empresas{
@@ -714,7 +698,7 @@ header{
 
 .section07-app-aurora img{
       margin-left: 30%;
-      margin-top: -5%;
+      transform: translateY(-100px);
 }
 
 .section07-app-aurora img:hover{
