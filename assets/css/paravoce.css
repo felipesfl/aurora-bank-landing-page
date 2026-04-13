@@ -32,6 +32,7 @@ header{
     padding: 1.5rem 6rem;
     height: 1.5em;
     margin:  0 170px;
+    align-items: center;
 }
 
 .logo-bar{
@@ -71,7 +72,8 @@ header{
 }
 
 .login-button{
-    margin-top: -15px;
+    display: flex;
+    align-items: center;
 }
 
 .login-button button{
@@ -139,9 +141,9 @@ header{
 }
 
 #imagem-section{
-    margin-top:  -42.1%;
     width: 31rem;
     margin-left: 60%;
+    transform: translateY(-540px);
 }
 
 #button-home{
@@ -304,55 +306,50 @@ header{
 }
 
 /* Section App */
-.section-app{
-    height: 38em;
-}
 .container-sectionapp{
-    margin-top: 3%;
-    height: 27rem;
     width: 70rem;
-    border-radius: 2rem;
-    margin-left: 23%;
+    height: 22rem;
     background: var(--azul01);
+    border-radius: 1rem;
+    margin: 4rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+    overflow: hidden;
 }
 
 #celular-app{
-    width: 65rem;
-    margin-top: -10%;
-    margin-left:  -15%;
+    width: 40rem;
+    object-fit: contain;
 }
 
-.container-sectionapp h1{
-    color: var(--branco);
-    font-size: 1.5rem;
-    margin-top: -30%;
-    margin-left: 50%;
-    line-height: 2;
+.texto-app{
+    width: 45%;
+    color: white;
 }
 
-.container-sectionapp h2{
-    margin-left: 50%;
-    color: var(--branco);
+.texto-app h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.texto-app h2{
+    font-size: 1.2rem;
     font-weight: 300;
-    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
 }
 
 .div-loja-app{
     display: flex;
-    flex: 2;
-    margin-left: 50%;
-    margin-top: 2%;
+    gap: 1rem;
 }
 
+#apple-store,
 #play-store{
     width: 10rem;
-    margin-left: 2%;
 }
-
-#apple-store{
-    width: 10rem;
-}
-
 /* CSS - Section Beneficios */
 
 #title-section{
