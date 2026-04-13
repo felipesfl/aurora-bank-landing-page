@@ -31,6 +31,7 @@ header{
     padding: 1.5rem 6rem;
     height: 1.5em;
     margin:  0 170px;
+    align-items: center;
 }
 
 .logo-bar{
@@ -42,7 +43,7 @@ header{
     margin-top: 1px;
     width: 80px;
     height: 80px;
-    margin-left: 90%;
+    margin-left: 0;
 }
 
 .nav-list{
@@ -70,7 +71,7 @@ header{
 }
 
 .login-button{
-    margin-top: -15px;
+    margin-top: 0;
 }
 
 
@@ -137,15 +138,15 @@ header{
 }
 
 #imagem-section{
-    margin-top:  -40%;
     width: 20rem;
-    margin-left: 60%;
+    transform: translate(120%, -90%);
+   
 }
 
 #image-empresa{
-    margin-top:  -20%;
+    transform: translate(120%, -40%);
     width: 20rem;
-    margin-left: 90%;
+    
 }
 
 #button-home{
@@ -154,9 +155,10 @@ header{
     border-radius: 1rem;
     padding: 10px 60px;
     margin-left: 5%;
-    margin-top: 3.5%;
+    transform: translateY(-40%);
     background-color: var(--azul02);
     color: var(--branco);
+    position: relative;
 }
 
 
@@ -194,7 +196,7 @@ header{
     color: var(--branco);
     font-size: 2.2rem;
     margin-left: 5%;
-    margin-top: -50%;
+     transform: translateY(-570px);
 }
 
 .div-empresa-main button{
@@ -299,19 +301,16 @@ header{
 }
 
 #notificacao1{
-    margin-top: -13%;
-    margin-left: 15%;
+    transform: translate(15%, -13%);
 }
+
 #notificacao2{
-    margin-top: -30%;
-    margin-left: 15%;
+    transform: translate(-80%, -40%);
 }
 
 #notificacao3{
-    margin-top: -30%;
-    margin-left: 15%;
+    transform: translate(15%, -80%);
 }
-
 
 .div-right{
     flex: 1;
@@ -417,7 +416,7 @@ header{
     color: var(--azul03);
     font-size: 1rem;
     font-weight: 300;
-    margin-left: -21%;
+    transform: translateX(-21%);
     display: flex;
     justify-content: center;
     
