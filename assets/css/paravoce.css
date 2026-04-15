@@ -202,14 +202,15 @@ header{
 
 #title-link{
     font-size: 1.5rem;
-     margin-left: 22%;
+     margin-left: 12%;
 }
 
 #link-voce{
     color: var(--azul03);
     font-size: 1rem;
     font-weight: 300;
-    margin-left: -21%;
+    transform: translateX(-100px);
+    cursor: pointer;
 }
 
 .div-paravoce h1{ 
@@ -419,7 +420,7 @@ header{
 }
 
 .div-compras img{
-    margin-top: 30%;
+    margin-top: 25%;
     margin-left: 10%;
 }
 
