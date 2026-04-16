@@ -262,6 +262,31 @@ header{
     height: 8rem;
     text-align: center;
     padding: 40px 0 0px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.section02-empresas::before,
+.section02-empresas::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 80px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+/* esquerda */
+.section02-empresas::before {
+    left: 0;
+    background: linear-gradient(to right, var(--azul01), transparent);
+}
+
+/* direita */
+.section02-empresas::after {
+    right: 0;
+    background: linear-gradient(to left, var(--azul01), transparent);
 }
 
 .section02-empresas h1{
@@ -271,21 +296,31 @@ header{
     font-weight: 600;
 }
 
+.logos-wrapper{
+    display: flex;
+    width: max-content;
+    animation: scroll 35s linear infinite;
+    
+}
+
 .logos{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
     flex-wrap: wrap;
+    padding-right: 3rem;
 }
 
 .logos img{
     height: 7rem;
     transition: .3s;
+    opacity: 0.5s;
 }
 
 .logos img:hover{
     transform: scale(1.1);
+    opacity: 1;
 }
 
 #ifood{
@@ -294,6 +329,11 @@ header{
 
 #natura{
     height: 40px;
+}
+
+@keyframes scroll {
+    0%{transform: translateX(0);}
+    100%{transform: translateX(-30%);}
 }
 
 /* CSS - Section 03 - Beneficios Aurora Bank */
@@ -498,6 +538,29 @@ header{
     background: var(--azul01);
     padding: 60px 80px;
     color: var(--branco);
+    overflow: hidden;
+    position: relative;
+}
+
+.section-avaliacoes::before,
+.section-avaliacoes::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.section-avaliacoes::before {
+    left: 0;
+    background: linear-gradient(to right, var(--azul01), transparent);
+}
+
+.section-avaliacoes::after {
+    right: 0;
+    background: linear-gradient(to left, var(--azul01), transparent);
 }
 
 .header-area {
@@ -533,10 +596,26 @@ header{
     width: 20px;
 }
 
+.cards-wrapper{
+    display: flex;
+    animation: scrollCards 50s linear infinite;
+    will-change: transform;
+}
+
 .cards {
     display: flex;
     gap: 40px;
     justify-content: center;
+    flex-shrink: 0;
+}
+
+@keyframes scrollCards {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
 }
 
 .card {
