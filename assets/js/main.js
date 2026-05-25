@@ -50,3 +50,19 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 });
+
+
+/* JS - Menu */
+
+function menuShow() {
+    let menuMobile = document.querySelector('.mobile-menu');
+
+    if (menuMobile.classList.contains('open')) {
+        menuMobile.classList.remove('open');
+        document.querySelector('.icon').src = "assets/images/icons8-cardápio-24.png";
+    } else {
+        menuMobile.classList.add('open');
+        document.querySelector('.icon').src = "assets/images/icons8-letra-x-24.png";
+
+    }
+}
