@@ -934,4 +934,61 @@ header{
         padding: 0;
     }
 
+    .login-button{
+        margin-right: 5rem;
+    }
+
+    .mobile-menu{
+        display: none;
+        position: absolute;
+        top: 3.8rem;
+        right: 1.5rem;
+        background: var(--branco);
+        padding: 1rem 1.2rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        z-index: 29;
+    }
+
+    .mobile-menu.open{
+        display: block;
+    }
+
+    .section01-home{
+        position: relative;
+    }
+
+    .container-section{
+        width: 70rem;
+    }
+
+    #imagem-section{
+         position: relative;
+         margin-left: 0;
+         transform: translate(163px, -315px);
+         width: 45.2rem;
+    }
+
+    #radio1:checked ~.container-section{
+         margin-left: 3%;
+    }
+
+    #radio2:checked ~.container-section{
+        margin-left: -97%;
+    }
+
+    #radio3:checked ~.container-section{
+        margin-left: -197%;
+    }
+
+    .section01-home{
+        position: relative;
+    }
+
+    .section01-home .manual-navigation{
+        bottom: 1rem;
+        margin-top: 0;
+        transform: none;
+    }
+
 }
