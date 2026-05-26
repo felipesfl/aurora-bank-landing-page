@@ -991,4 +991,25 @@ header{
         transform: none;
     }
 
+    .div-compras{
+        width: 55rem;
+        margin-left: 15%;
+    }
+
+    .app-frase h1{
+        font-size: 2.5rem;
+    }
+
+    .app-frase h2{
+        font-size: 1.5rem;
+    }
+
+    .app-frase h3{
+        font-size: 2rem;
+    }
+
+    .section07-app-aurora img{
+        margin-left: 20%;
+    }
 }
+
