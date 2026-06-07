@@ -93,74 +93,69 @@ header{
 
 
 /* CSS - Section Home */
-.section-home{
-    height: 47rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 0 auto;
-    margin-top: 0%;
+.section01-home{
+    height: 50rem;
+    position: relative;
     overflow: hidden;
 }
 
-.section-home input{
-    display: none;
+.section01-home::after{
+     content: "";
+     position: absolute;
+     inset: 0;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     background-position: 65% center;
+      filter: contrast(1.08) saturate(1.05);
 }
 
-.container-section{
-    margin-top: 50%;
-    height: 40rem;
-    background-color: #f5f09e;
-    width: 80rem;
-    border-radius: 2rem;
-    margin:  0 80px 70px;
-    margin-top: 5%;
-    margin-left: 24%;
-    
-}
-
-.container-section h1{
-    color: black;
-    font-size: 2.2rem;
-    margin-left: 5%;
-    
-}
-.container-section h2{
-    margin-top: 2.5%;
-    margin-left: 5%;
-    font-weight: 300;
-}
-
-#logo-section{
-    width: 12rem;
-    margin-left: 4%;
-    margin-top: 5%;
-    
-}
-
-#imagem-section{
-    width: 20rem;
-    transform: translate(120%, -90%);
-   
-}
-
-#image-empresa{
-    transform: translate(120%, -40%);
-    width: 20rem;
-    
-}
-
-#button-home{
-    text-decoration: none;
-    border: none;
-    border-radius: 1rem;
-    padding: 10px 60px;
-    margin-left: 5%;
-    transform: translateY(-40%);
-    background-color: var(--azul02);
-    color: var(--branco);
+.section01-home h1{
     position: relative;
+    z-index: 1;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 2.5rem;
 }
 
+.section01-home h2{
+    position: relative;
+    z-index: 1;
+    font-weight: 300;
+    margin-left: 10%;
+    line-height: 5;
+}
+
+.div-conta{
+    position: relative;
+    z-index: 1;
+    width: 20rem;
+    height: 8rem;
+    background-color: var(--azul03);
+    margin-left: 10%;
+    padding: 3rem;
+    border-radius: 2rem;
+}
+
+.div-conta p{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--branco);
+}
+
+.div-conta input{
+    padding: 1rem;
+    margin-bottom: 0.9rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+.div-conta button{
+    border: none;
+    background-color: var(--branco);
+    padding: 15px 20px;
+    border-radius: 40px;
+    color: #000;
+}
 
 /* CSS - Section Para sua Empresa */
 #h1-title{
@@ -588,4 +583,516 @@ button span{
     opacity: 0.7;
 }
 
+/* ===== MEDIA QUERIES - Responsive Design ===== */
+
+/* Tablet Landscape - 992px até 1200px */
+@media screen and (max-width: 1200px) and (min-width: 993px){
+    .nav-bar{
+        margin: 0 1rem;
+        gap: 20px;
+    }
+
+    .nav-list ul{
+        gap: 50px;
+    }
+
+    .container-section{
+        width: 70rem;
+    }
+
+    .section-para-empresa{
+        height: auto;
+    }
+
+    .div-empresa-main{
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+
+    .div-empresa-main img{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .div-empresa-main h1{
+        transform: none;
+    }
+
+    .div-content-empresa{
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .card-empresa{
+        flex: 0 1 calc(50% - 1rem);
+    }
+
+    .section03-empresa{
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .content-empresa{
+        flex-direction: column;
+        gap: 40px;
+        padding: 0 20px;
+    }
+
+    .card-empresa-left{
+        width: 100%;
+        height: auto;
+    }
+
+    .card-empresa-left img{
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .card-empresa-right{
+        width: 100%;
+        height: 30rem;
+    }
+
+    .content{
+        gap: 30px;
+        padding: 0 40px;
+    }
+
+    .div-compras{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Tablet Portrait - 768px até 992px */
+@media screen and (max-width: 992px){
+    .nav-bar{
+        padding: 1.5rem 2rem;
+        margin: 0 1rem;
+        gap: 10px;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    /* Section Home */
+    .section-home{
+        height: 35rem;
+    }
+
+    .container-section{
+        width: 90%;
+        margin: 5% auto 0;
+        height: auto;
+    }
+
+    .section-para-empresa{
+        height: auto;
+        flex-direction: column;
+    }
+
+    #h1-title{
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .div-empresa-main{
+        width: 90%;
+        margin: 2rem auto;
+        height: auto;
+    }
+
+    .div-empresa-main img{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .div-empresa-main h1{
+        font-size: 1.8rem;
+        transform: none;
+        margin-top: 1.5rem;
+    }
+
+    .div-empresa-main button{
+        margin-top: 1rem;
+    }
+
+    .div-content-empresa{
+        width: 100%;
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .card-empresa{
+        flex: 0 1 calc(50% - 1rem);
+        margin: 0.5rem;
+    }
+
+    .section03-empresa{
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .section03-empresa h1{
+        padding: 2rem;
+        font-size: 1.8rem;
+    }
+
+    .content-empresa{
+        flex-direction: column;
+        gap: 40px;
+        padding: 0 20px;
+    }
+
+    .card-empresa-left{
+        width: 100%;
+        height: auto;
+    }
+
+    .card-empresa-left img{
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .card-empresa-right{
+        width: 100%;
+        height: 30rem;
+    }
+
+    .card-empresa-right h1{
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+
+    /* Section Empresa */
+    .section-empresa{
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .div-title h1{
+        font-size: 1.5rem;
+    }
+
+    .content{
+        flex-direction: column;
+        gap: 40px;
+        padding: 0 20px;
+        max-width: 100%;
+    }
+
+    .div-paraempresa h1{
+        font-size: 1.3rem;
+    }
+
+    /* Section Compras */
+    .div-compras{
+        width: 90%;
+        margin: 2rem auto;
+        height: 28rem;
+    }
+
+    .div-compras h1{
+        font-size: 1.8rem;
+    }
+
+    /* Section Promoções */
+    .section-promocoes{
+        height: auto;
+        padding: 2rem;
+    }
+
+    .section-promocoes h1{
+        padding: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .section-promocoes button{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 1rem;
+    }
+}
+
+/* Mobile - 576px até 768px */
+@media screen and (max-width: 768px){
+    .nav-bar{
+        padding: 1rem 1rem;
+        margin: 0;
+    }
+
+    .logo-bar img{
+        width: 50px;
+        height: 50px;
+    }
+
+    #h1-title{
+        font-size: 1.3rem;
+        margin-top: 1rem;
+    }
+
+    .div-empresa-main{
+        width: 95%;
+        margin: 1rem auto;
+    }
+
+    .div-empresa-main h1{
+        font-size: 1.5rem;
+    }
+
+    .card-empresa{
+        flex: 1 1 100%;
+        margin: 0.5rem 0;
+    }
+
+    #title-section{
+        font-size: 1.3rem;
+    }
+
+    .cards-beneficios{
+        padding: 1.5rem;
+        margin: 0.5rem;
+    }
+
+    .section03-empresa h1{
+        padding: 1.5rem;
+        font-size: 1.3rem;
+    }
+
+    .card-empresa-left{
+        width: 100%;
+    }
+
+    .card-empresa-right{
+        height: 25rem;
+    }
+
+    .div-compras{
+        width: 95%;
+        margin: 1rem auto;
+        height: 25rem;
+    }
+
+    .div-compras h1{
+        font-size: 1.3rem;
+    }
+
+    .section-promocoes h1{
+        padding: 1.5rem;
+        font-size: 1.2rem;
+    }
+
+    .section-promocoes button{
+        margin-left: 0;
+        width: 80%;
+    }
+
+    button span{
+        font-size: 1.8rem;
+    }
+}
+
+/* Small Mobile - até 576px */
+@media screen and (max-width: 576px){
+    .nav-bar{
+        padding: 0.8rem 0.5rem;
+        gap: 8px;
+    }
+
+    .logo-bar img{
+        width: 45px;
+        height: 45px;
+    }
+
+    /* Section Home */
+    .section-home{
+        height: 25rem;
+    }
+
+    .container-section h1{
+        font-size: 1.5rem;
+    }
+
+    /* Section Empresa */
+    #h1-title{
+        font-size: 1.1rem;
+        margin-top: 0.8rem;
+    }
+
+    .section-para-empresa{
+        padding: 0;
+    }
+
+    .div-empresa-main{
+        width: 98%;
+        margin: 0.8rem auto;
+        height: auto;
+    }
+
+    .div-empresa-main h1{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+
+    .div-empresa-main button{
+        padding: 8px 30px;
+        font-size: 0.9rem;
+    }
+
+    .div-content-empresa{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card-empresa{
+        flex: 1 1 100%;
+        margin: 0.3rem 0;
+        padding: 1.2rem;
+    }
+
+    .card-empresa h2{
+        font-size: 0.9rem;
+    }
+
+    #title-section{
+        font-size: 1.1rem;
+        margin: 1rem 0.5rem;
+    }
+
+    .cards-beneficios{
+        padding: 1rem;
+        margin: 0.3rem;
+    }
+
+    /* Section 03 */
+    .section03-empresa{
+        padding: 1rem;
+    }
+
+    .section03-empresa h1{
+        padding: 1rem;
+        font-size: 1.1rem;
+    }
+
+    .content-empresa{
+        gap: 20px;
+        padding: 0 10px;
+    }
+
+    .card-empresa-left{
+        width: 100%;
+    }
+
+    .card-empresa-right{
+        height: 20rem;
+    }
+
+    .card-empresa-right h1{
+        font-size: 1.1rem;
+        margin-top: 0.8rem;
+    }
+
+    #notificacao1,
+    #notificacao2,
+    #notificacao3{
+        transform: none;
+    }
+
+    /* Section Empresa */
+    .section-empresa{
+        padding: 1rem;
+    }
+
+    .div-title h1{
+        font-size: 1.1rem;
+    }
+
+    .div-title h2{
+        font-size: 0.8rem;
+    }
+
+    .content{
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 10px;
+    }
+
+    .div-paraempresa h1{
+        font-size: 1rem;
+    }
+
+    .div-paraempresa h2{
+        font-size: 0.85rem;
+    }
+
+    /* Section Compras */
+    .section-compras{
+        height: auto;
+        padding: 1rem;
+    }
+
+    .div-compras{
+        width: 98%;
+        margin: 0.8rem auto;
+        height: 20rem;
+    }
+
+    .div-compras img{
+        margin-top: 15%;
+    }
+
+    .div-compras h1{
+        font-size: 1.1rem;
+    }
+
+    .div-compras h2{
+        font-size: 0.8rem;
+    }
+
+    /* Section Promoções */
+    .section-promocoes{
+        padding: 1rem;
+    }
+
+    .section-promocoes h1{
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .section-promocoes button{
+        width: 90%;
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+
+    button span{
+        font-size: 1.5rem;
+    }
+
+    /* Footer */
+    .footer{
+        padding: 30px 3%;
+    }
+
+    .footer-container{
+        gap: 15px;
+    }
+
+    .footer-cool{
+        min-width: 120px;
+    }
+
+    .footer-cool h3{
+        font-size: 13px;
+    }
+
+    .footer-cool a{
+        font-size: 11px;
+    }
+}
 

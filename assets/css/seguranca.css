@@ -230,3 +230,468 @@ header{
 }
  
 }
+
+/* ===== MEDIA QUERIES - Responsive Design para telas menores ===== */
+
+/* Tablet Landscape - 992px até 1200px */
+@media screen and (max-width: 1200px) and (min-width: 993px){
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    header{
+        border-bottom: 1px solid var(--cinza02);
+        position: relative;
+    }
+
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5rem 2rem;
+        margin: 0 1rem;
+        gap: 20px;
+    }
+
+    .nav-list ul{
+        gap: 50px;
+    }
+
+    .section-busca{
+        height: auto;
+        padding: 2rem;
+    }
+
+    .section-busca h1{
+        font-size: 1.3rem;
+    }
+
+    #busca-duvida{
+        margin-left: 0;
+        width: 90%;
+    }
+
+    .section-perguntas{
+        height: auto;
+        padding: 2rem;
+    }
+
+    .section-perguntas h1{
+        margin-left: 1rem;
+        font-size: 1rem;
+    }
+
+    .div-perguntas{
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section-seguranca{
+        height: auto;
+        padding: 2rem;
+    }
+
+    .section-seguranca h1{
+        margin-left: 1rem;
+    }
+
+    .div-seguranca{
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Tablet Portrait - 768px até 992px */
+@media screen and (max-width: 992px){
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    header{
+        border-bottom: 1px solid var(--cinza02);
+        position: relative;
+    }
+
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+        padding: 1.5rem 2rem;
+        margin: 0 1rem;
+        gap: 10px;
+    }
+
+    .nav-list{
+        display: none;
+    }
+
+    .mobile-menu-icon{
+        display: block;
+        position: absolute;
+        top: 1.5rem;
+        right: 1.5rem;
+        z-index: 30;
+    }
+
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+    }
+
+    .login-button{
+        margin-right: 3rem;
+    }
+
+    .section-busca{
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
+    .section-busca h1{
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    #busca-duvida{
+        border: none;
+        background: var(--azul04);
+        margin-left: 0;
+        width: 100%;
+        max-width: 400px;
+        display: block;
+        margin: 1rem auto;
+        padding: 1.5rem;
+        border-radius: 2rem;
+    }
+
+    .section-perguntas{
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
+    .section-perguntas h1{
+        margin-left: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .div-perguntas{
+        width: 95%;
+        height: auto;
+        min-height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5rem;
+        border-radius: 1.5rem;
+    }
+
+    .section-seguranca{
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
+    .section-seguranca h1{
+        margin-left: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .div-seguranca{
+        width: 95%;
+        height: auto;
+        min-height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.5rem;
+        border-radius: 1.5rem;
+    }
+
+    .footer {
+        background: #000;
+        padding: 40px 3%;
+        color: #fff;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .footer-cool {
+        min-width: 150px;
+    }
+
+    .footer-cool h3 {
+        font-size: 16px;
+    }
+
+    .footer-cool a {
+        font-size: 13px;
+    }
+}
+
+/* Mobile - 576px até 768px */
+@media screen and (max-width: 768px){
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    header{
+        position: relative;
+    }
+
+    .nav-bar{
+        padding: 1rem 1rem;
+        margin: 0;
+        gap: 10px;
+    }
+
+    .logo-bar img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .login-button button{
+        padding: 10px 15px;
+        font-size: 0.8rem;
+    }
+
+    .section-busca{
+        height: auto;
+        padding: 1.5rem 1rem;
+    }
+
+    .section-busca h1{
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+
+    #busca-duvida{
+        padding: 1.2rem;
+        width: 100%;
+        font-size: 0.95rem;
+    }
+
+    .section-perguntas{
+        height: auto;
+        padding: 1.5rem 1rem;
+    }
+
+    .section-perguntas h1{
+        margin-left: 0;
+        font-size: 0.95rem;
+        margin-bottom: 1rem;
+    }
+
+    .div-perguntas{
+        width: 98%;
+        height: auto;
+        min-height: 150px;
+        padding: 1rem;
+    }
+
+    .section-seguranca{
+        height: auto;
+        padding: 1.5rem 1rem;
+    }
+
+    .section-seguranca h1{
+        margin-left: 0;
+        font-size: 0.95rem;
+        margin-bottom: 1rem;
+    }
+
+    .div-seguranca{
+        width: 98%;
+        height: auto;
+        min-height: 150px;
+        padding: 1rem;
+    }
+
+    .footer {
+        padding: 30px 2%;
+    }
+
+    .footer-container {
+        gap: 20px;
+    }
+
+    .footer-cool h3 {
+        font-size: 14px;
+    }
+
+    .footer-cool a {
+        font-size: 12px;
+    }
+}
+
+/* Small Mobile - até 576px */
+@media screen and (max-width: 576px){
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+    }
+
+    header{
+        position: relative;
+    }
+
+    .nav-bar{
+        padding: 0.8rem 0.5rem;
+        margin: 0;
+        gap: 8px;
+    }
+
+    .logo-bar img{
+        width: 45px;
+        height: 45px;
+        margin-left: 0;
+    }
+
+    .login-button button{
+        padding: 8px 12px;
+        font-size: 0.7rem;
+    }
+
+    .section-busca{
+        height: auto;
+        padding: 1rem 0.8rem;
+    }
+
+    .section-busca h1{
+        font-size: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    #busca-duvida{
+        border: none;
+        background: var(--azul04);
+        margin-left: 0;
+        margin-top: 1rem;
+        padding: 1rem;
+        width: 100%;
+        border-radius: 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .section-perguntas{
+        height: auto;
+        padding: 1rem 0.8rem;
+    }
+
+    .section-perguntas h1{
+        margin-left: 0;
+        font-weight: 300;
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+
+    .div-perguntas{
+        width: 100%;
+        height: auto;
+        min-height: 120px;
+        margin-left: 0;
+        background: var(--cinza02);
+        margin-top: 1rem;
+        border-radius: 1rem;
+        padding: 1rem;
+    }
+
+    .section-seguranca{
+        height: auto;
+        padding: 1rem 0.8rem;
+    }
+
+    .section-seguranca h1{
+        margin-left: 0;
+        font-weight: 300;
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+
+    .div-seguranca{
+        width: 100%;
+        height: auto;
+        min-height: 120px;
+        margin-left: 0;
+        background: var(--cinza02);
+        margin-top: 1rem;
+        border-radius: 1rem;
+        padding: 1rem;
+    }
+
+    .footer {
+        background: #000;
+        padding: 25px 2%;
+        color: #fff;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .footer-cool {
+        display: flex;
+        flex-direction: column;
+        min-width: 100px;
+    }
+
+    .footer-cool h3 {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    .footer-cool a {
+        color: #d1d1d1;
+        text-decoration: none;
+        margin-bottom: 6px;
+        font-size: 11px;
+    }
+
+    .footer-cool a:hover {
+        color: #fff;
+    }
+
+    .footer-cool p {
+        margin: 2px 0;
+        color: #ddd;
+        font-size: 10px;
+    }
+
+    .footer-cool span {
+        font-size: 10px;
+        color: #aaa;
+    }
+
+    .footer-cool .mt {
+        margin-top: 10px;
+    }
+
+    .footer-social {
+        margin-top: 10px;
+        display: flex;
+        gap: 12px;
+        margin-left: 0;
+    }
+
+    .footer-social img {
+        width: 24px;
+        height: 24px;
+    }
+}

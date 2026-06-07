@@ -18,6 +18,12 @@
 
 /* CSS - MENU */
 
+html,
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -102,168 +108,74 @@ header{
 
 .mobile-menu{
     display: none;
+    
 }
 
 /* CSS - Section 01 - Home */
 
 .section01-home{
-    background-color: var(--branco);
-    height: 47rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 0 auto;
-    margin-top: 3%;
+    height: 50rem;
+    position: relative;
     overflow: hidden;
+}
+
+.section01-home::after{
+     content: "";
+     position: absolute;
+     inset: 0;
+     background: linear-gradient(var(--azul03), var(--azul02), var(--azul04));
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     background-position: 65% center;
+      filter: contrast(1.08) saturate(1.05);
+}
+
+.section01-home h1{
     position: relative;
     z-index: 1;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 2.5rem;
 }
 
-.section01-home input{
-    display: none;
-}
-
-.manual-navigation{
-    position: absolute;
-    width: 100%;
-    bottom: 20px;
-    margin-top: -40px;
-    display: flex;
-    justify-content: center;
-    margin-left: 25%;
-}
-.manual-btn{
-    border: 2px solid transparent;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-top: 80%;
-    transition: 0.5s;
-}
-
-.manual-btn:not(:last-child){
-    margin-right: 40px;
-}
-
-.manual-btn:hover{
-    background-color: var(--azul01);
-}
-
-#radio1:checked ~ .container-section{
-    margin-left: 20%;
-}
-
-#radio2:checked ~ .container-section{
-    margin-left: -85%;
-}
-
-#radio3:checked ~ .container-section{
-    margin-left: -180%;
-}
-
-.navigation-auto div{
-     border: 2px solid transparent;
-     padding: 5px;
-     border-radius: 10px;
-     cursor: pointer;
-     transition: 0.5s;
-}
-
-.navigation-auto{
-    position: absolute;
-    width: 200px;
-    margin-top: 31%;
-    display: flex;
-    justify-content: center;
-    display: flex;
-    justify-content: center;
-    margin-left: 40.3%;
-    background: var(--branco);
-    border-radius: 2rem;
-    padding: 0.5rem;
-}
-
-.navigation-auto div:not(:last-child){
-    margin-right: 40px;
-}
-
-#radio1:checked ~.navigation-auto .auto-btn1{
-    background-color: var(--azul04);
-}
-
-#radio2:checked ~.navigation-auto .auto-btn2{
-    background-color: var(--azul04);
-}
-
-#radio3:checked ~.navigation-auto .auto-btn3{
-    background-color: var(--azul04);
-}
-
-
-
-
-.container-section{
-    margin-top: 50%;
-    height: 40rem;
-    background-color: var(--azul04);
-    width: 80rem;
-    border-radius: 2rem;
-    margin:  0 80px 70px;
-    margin-left: 15%;
-    background: linear-gradient(var(--azul01),var(--azul02),var(--azul03), var(--azul04));
-    transition: .2s;
-}
-
-.container-section h1{
-    color: var(--branco);
-    font-size: 2.2rem;
-    margin-left: 5%;
-    
-}
-.container-section h2{
-    margin-top: 2.5%;
-    margin-left: 5%;
+.section01-home h2{
+    position: relative;
+    z-index: 1;
     font-weight: 300;
+    margin-left: 10%;
+    line-height: 5;
+}
+
+.div-conta{
+    position: relative;
+    z-index: 1;
+    width: 20rem;
+    height: 8rem;
+    background-color: var(--branco);
+    margin-left: 10%;
+    padding: 3rem;
+    border-radius: 2rem;
+}
+
+.div-conta p{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.div-conta input{
+    padding: 1rem;
+    margin-bottom: 0.9rem;
+    border-radius: 1rem;
+    border: 1px solid var(--cinza);
+}
+
+.div-conta button{
+    border: none;
+    background-color: var(--azul01);
+    padding: 15px 20px;
+    border-radius: 40px;
     color: var(--branco);
 }
-
-#logo-section{
-    width: 6rem;
-    margin-left: 4%;
-    margin-top: 5%;
-    
-}
-
-#imagem-section{
-    transform:translateY(-330px);
-    width: 40.1rem;
-    margin-left: 50%;
-    
-}
-
-#slide-cliente{
-   background-image: url("../images/cliente2.jpg");
-   background-size: cover;
-   background-position: center;
-}
-
-#slide-empreendedor{
-   min-height: 600px;
-   background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("../images/barista2.jpg");
-   background-size: cover;
-   background-position: center right;
-   background-repeat: no-repeat;
-}
-
-#button-home{
-    text-decoration: none;
-    border: none;
-    border-radius: 1rem;
-    padding: 10px 60px;
-    margin-left: 5%;
-    margin-top: 3.5%;
-    background-color: var(--branco);
-}
-
 /* CSS - Section 02 - Empresas parceiras */
 
 .section02-empresas{
@@ -923,7 +835,7 @@ header{
         display: block;
         position: absolute;
         top: 1.5rem;
-        right: 1.5rem;
+        right: 7rem;
         z-index: 30;
     }
 
@@ -935,7 +847,7 @@ header{
     }
 
     .login-button{
-        margin-right: 5rem;
+        margin-right: 10rem;
     }
 
     .mobile-menu{
@@ -948,47 +860,44 @@ header{
         border-radius: 8px;
         box-shadow: 0 4px 12px rgba(0,0,0,0.08);
         z-index: 29;
+        width: 90%;
+        margin-top: 1%;
     }
 
     .mobile-menu.open{
         display: block;
     }
 
-    .section01-home{
-        position: relative;
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0;
+        margin: 0;
+        list-style: none;
     }
 
-    .container-section{
-        width: 70rem;
+    .mobile-menu .nav-item{
+        padding: 0.8rem 1.5rem;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
     }
 
-    #imagem-section{
-         position: relative;
-         margin-left: 0;
-         transform: translate(163px, -315px);
-         width: 45.2rem;
-    }
-
-    #radio1:checked ~.container-section{
-         margin-left: 3%;
-    }
-
-    #radio2:checked ~.container-section{
-        margin-left: -97%;
-    }
-
-    #radio3:checked ~.container-section{
-        margin-left: -197%;
+    .mobile-menu .nav-link{
+        display: block;
+        padding: 0.5rem 0;
     }
 
     .section01-home{
         position: relative;
     }
 
-    .section01-home .manual-navigation{
-        bottom: 1rem;
-        margin-top: 0;
-        transform: none;
+    
+
+    .section06-seguranca{
+        height: 60rem;
+    }
+
+    .content-seguranca{
+        flex-direction: column;
     }
 
     .div-compras{
@@ -1012,4 +921,16 @@ header{
         margin-left: 20%;
     }
 }
+
+@media screen and (max-width:1090px){
+    .container-section{
+        width: 60rem;
+    }
+
+    #imagem-section{
+        width: 30rem;
+    }
+}
+
+
 
