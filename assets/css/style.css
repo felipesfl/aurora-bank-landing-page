@@ -123,7 +123,7 @@ header{
      content: "";
      position: absolute;
      inset: 0;
-     background: linear-gradient(var(--azul03), var(--azul02), var(--azul04));
+     background: linear-gradient(var(--azul04), var(--azul02), var(--branco));
      background-repeat: no-repeat;
      background-size: 100% 100%;
      background-position: 65% center;
@@ -144,6 +144,13 @@ header{
     font-weight: 300;
     margin-left: 10%;
     line-height: 5;
+}
+
+#imagem-section{
+    position: relative;
+    width: 52rem;
+    z-index: 1;
+    transform: translate(900px, -676.2px);
 }
 
 .div-conta{
@@ -301,9 +308,6 @@ header{
     font-size: 1rem;
 }
 
-#image-section{
-    width: 2.2rem;
-}
 
 #seta-section{
     width: 2,1rem;

@@ -166,6 +166,13 @@ header{
     color: var(--branco);
 }
 
+#imagem-section{
+    position: relative;
+    width: 75rem;
+    z-index: 1;
+    transform: translate(900px, -676.2px);
+}
+
 /* Section 02 - Para Você */
 .section-clientes{
     height: 50rem;
