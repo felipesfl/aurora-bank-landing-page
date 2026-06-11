@@ -91,6 +91,14 @@ header{
     font-size: 0.9rem;
 }
 
+.mobile-menu{
+    display: none;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+
 
 /* CSS - Section Home */
 .section01-home{

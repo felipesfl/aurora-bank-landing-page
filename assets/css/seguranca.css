@@ -95,6 +95,14 @@ header{
     font-size: 0.9rem;
 }
 
+.mobile-menu{
+    display: none;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+
 
 .section-busca{
     height: 20rem;
@@ -117,44 +125,32 @@ header{
     border-radius: 2rem;
 }
 
-.section-perguntas{
-    height: 30rem;
+.section-duvidas{
+    height: 35rem;
+    margin: 0 auto;
 }
 
-.section-perguntas h1{
-    margin-left: 15%;
-    font-weight: 300;
-    font-size: 1rem;
+.section-duvidas h1{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 3%;
+    font-weight: 400;
 }
 
-.div-perguntas{
-    width: 80rem;
-    height :20rem;
-    margin-left: 15%;
-    background: var(--cinza02);
-    margin-top: 2%;
-    border-radius: 1.5rem;
+.section-duvidas details summary{
+    width: 60%;
+     margin-left: 20%;
+     padding: 1.5%;
+     border: 2px solid var(--cinza);
+
 }
 
-.section-seguranca{
-    height: 30rem;
+.section-duvidas details p{
+    background-color: var(--cinza02);
+    padding: 1.5%;
+    width: 60%;
+    margin-left: 20%;
 }
-
-.section-seguranca h1{
-    margin-left: 15%;
-    font-weight: 300;
-    font-size: 1rem;
-}
-
-.div-seguranca{
-    width: 80rem;
-    height :20rem;
-    margin-left: 15%;
-    background: var(--cinza02);
-    margin-top: 2%;
-    border-radius: 1.5rem;
-}
-
 
 /* CSS - Rodapé */
 
@@ -272,38 +268,7 @@ header{
         width: 90%;
     }
 
-    .section-perguntas{
-        height: auto;
-        padding: 2rem;
-    }
-
-    .section-perguntas h1{
-        margin-left: 1rem;
-        font-size: 1rem;
-    }
-
-    .div-perguntas{
-        width: 90%;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .section-seguranca{
-        height: auto;
-        padding: 2rem;
-    }
-
-    .section-seguranca h1{
-        margin-left: 1rem;
-    }
-
-    .div-seguranca{
-        width: 90%;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  
 }
 
 /* Tablet Portrait - 768px até 992px */
