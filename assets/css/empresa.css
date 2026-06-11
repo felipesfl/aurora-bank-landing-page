@@ -43,7 +43,7 @@ header{
     margin-top: 1px;
     width: 80px;
     height: 80px;
-    margin-left: 0;
+    transform: translateX(200px);
 }
 
 .nav-list{
@@ -80,6 +80,7 @@ header{
     background-color: var(--azul01);
     padding: 15px 20px;
     border-radius: 40px;
+    transform: translateX(-200px);
     
 
 }
@@ -105,6 +106,7 @@ header{
     height: 50rem;
     position: relative;
     overflow: hidden;
+    background: linear-gradient(var(--azul03),var(--azul03),var(--azul04,));
 }
 
 .section01-home::after{
@@ -123,6 +125,7 @@ header{
     margin-top: 10%;
     margin-left: 10%;
     font-size: 2.5rem;
+    color: var(--branco);
 }
 
 .section01-home h2{
@@ -131,6 +134,14 @@ header{
     font-weight: 300;
     margin-left: 10%;
     line-height: 5;
+    color: var(--branco);
+}
+
+#imagem-section{
+    position: relative;
+    width: 80rem;
+    z-index: 1;
+    transform: translate(900px, -600px);
 }
 
 .div-conta{
@@ -138,7 +149,7 @@ header{
     z-index: 1;
     width: 20rem;
     height: 8rem;
-    background-color: var(--azul03);
+    background-color: var(--branco);
     margin-left: 10%;
     padding: 3rem;
     border-radius: 2rem;
@@ -147,19 +158,18 @@ header{
 .div-conta p{
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
-    color: var(--branco);
 }
 
 .div-conta input{
     padding: 1rem;
     margin-bottom: 0.9rem;
     border-radius: 1rem;
-    border: none;
+    border: 2px solid var(--cinza);
 }
 
 .div-conta button{
     border: none;
-    background-color: var(--branco);
+    background-color: var(--azul03);
     padding: 15px 20px;
     border-radius: 40px;
     color: #000;
@@ -245,7 +255,7 @@ header{
 /* CSS - Section 03 */
 .section03-empresa{
    height: 60rem;
-   background: linear-gradient(var(--azul03),var(--azul03),var(--azul04), var(--branco));
+   
 }
 
 .section03-empresa h1{

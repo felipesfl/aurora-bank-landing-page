@@ -43,7 +43,7 @@ header{
     margin-top: 1px;
     width: 80px;
     height: 80px;
-    margin-left: 90%;
+    transform: translateX(200px);
 }
 
 .nav-list{
@@ -77,9 +77,10 @@ header{
 
 .login-button button{
     border: none;
-    background-color: var(--azul04);
+    background-color: var(--azul03);
     padding: 15px 20px;
     border-radius: 40px;
+    transform: translateX(-200px);
     
 
 }
@@ -125,6 +126,7 @@ header{
     margin-top: 10%;
     margin-left: 10%;
     font-size: 2.5rem;
+    color: var(--branco);
 }
 
 .section01-home h2{
@@ -133,6 +135,7 @@ header{
     font-weight: 300;
     margin-left: 10%;
     line-height: 5;
+    color: var(--branco);
 }
 
 .div-conta{

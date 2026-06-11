@@ -47,7 +47,7 @@ header{
     margin-top: 1px;
     width: 80px;
     height: 80px;
-    margin-left: 90%;
+    transform: translateX(200px);
 }
 
 .nav-list{
@@ -84,6 +84,7 @@ header{
     background-color: var(--azul01);
     padding: 15px 20px;
     border-radius: 40px;
+    transform: translateX(-200px);
     
 
 }
