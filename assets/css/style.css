@@ -952,5 +952,62 @@ header{
     }
 }
 
+@media screen and (max-width: 850px){
+    .mobile-menu-icon{
+        transform: translateX(750px);
+    }
 
+    #imagem-section{
+        width: 40rem;
+        transform: translate(300px, -350px);
+    }
+
+    .section03-para-você{
+        height: 30rem;
+    }
+
+    #title-section03{
+        text-align: center;
+    }
+
+
+    .cards-beneficios{
+        width: 12rem;
+    }
+
+    .section06-seguranca{
+        height: 65rem;
+    }
+
+    .div-compras{
+        width: 40rem;
+        height: 25rem;
+        margin-left: 13%;
+    }
+
+    .section-compras{
+        height: 35rem;
+    }
+
+    .app-frase h1{
+        font-size: 2rem;
+    }
+
+    .app-frase h2{
+        font-size: 1.2rem;
+    }
+
+    .app-frase h3{
+        font-size: 1.5rem;
+    }
+
+    .section07-app-aurora{
+        height: 80rem;
+    }
+
+    .section07-app-aurora img{
+        width: 47rem;
+        margin-left: 9%;
+    }
+}
 
