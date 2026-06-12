@@ -838,11 +838,15 @@ header{
         display: none;
     }
 
+    .logo-bar{
+        transform: translateX(-170px);
+    }
+
     .mobile-menu-icon{
         display: block;
         position: absolute;
         top: 1.5rem;
-        right: 7rem;
+        transform: translateX(1100px);
         z-index: 30;
     }
 
@@ -854,7 +858,7 @@ header{
     }
 
     .login-button{
-        margin-right: 10rem;
+        transform: translateX(80px);
     }
 
     .mobile-menu{
@@ -895,6 +899,25 @@ header{
 
     .section01-home{
         position: relative;
+        height: 50rem;
+    }
+
+    .section01-home h1{
+        z-index: 999;
+    }
+
+    .section01-home h2{
+        z-index: 999;
+    }
+
+    #imagem-section{
+       width: 51rem;
+        transform: translate(450px, -590px);
+        
+    }
+
+    .div-conta{
+        z-index: 999;
     }
 
     
@@ -926,16 +949,6 @@ header{
 
     .section07-app-aurora img{
         margin-left: 20%;
-    }
-}
-
-@media screen and (max-width:1090px){
-    .container-section{
-        width: 60rem;
-    }
-
-    #imagem-section{
-        width: 30rem;
     }
 }
 
