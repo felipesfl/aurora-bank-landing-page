@@ -604,7 +604,21 @@ header{
 }
 
 @media screen and (max-width: 1500px){
+     .logo-bar{
+        transform: translateX(-230px);
+     }
 
+     .login-button{
+        transform: translateX(230px);
+     }
+
+     #imagem-section{
+        transform: translate(500px, -615.2px);
+     }
+
+     .div-compras{
+        transform: translateX(-150px);
+     }
 }
 
 @media screen and (max-width: 1200px){
@@ -665,6 +679,21 @@ header{
         display: block;
         padding: 0.5rem 0;
     }
+
+    .logo-bar{
+        transform: translateX(-400px);
+    }
+
+    .login-button{
+        transform: translateX(450px);
+    }
+
+    #imagem-section{
+        transform: translate(300px, -585px);
+        
+    }
+
+    
 
 }
 
