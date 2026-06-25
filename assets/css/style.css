@@ -729,7 +729,7 @@ header{
 .app-frase h2{
     font-size: 1.7rem;
     font-weight: 300;
-    line-height: 4.5;
+    line-height: 2;
 }
 
 .app-frase h3{
@@ -822,6 +822,22 @@ header{
 
 .footer-social img:hover {
     opacity: 0.7;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1500px){
+    .logo-bar{
+        transform: translateX(-300px);
+    }
+
+    .login-button{
+        transform: translateX(300px);
+    }
+
+    #imagem-section{
+        width: 55rem;
+    }
 }
 
 @media screen and (max-width: 1200px){
@@ -920,8 +936,6 @@ header{
         z-index: 999;
     }
 
-    
-
     .section06-seguranca{
         height: 60rem;
     }
@@ -957,9 +971,13 @@ header{
         transform: translateX(750px);
     }
 
+    .section01-home{
+        height: 73rem;
+    }
+
     #imagem-section{
         width: 40rem;
-        transform: translate(300px, -350px);
+        transform: translate(150px, 2px);
     }
 
     .section03-para-você{
@@ -968,6 +986,11 @@ header{
 
     #title-section03{
         text-align: center;
+
+    }
+
+    .div-conta{
+        margin-left: 25%;
     }
 
 
@@ -1009,5 +1032,217 @@ header{
         width: 47rem;
         margin-left: 9%;
     }
+}
+
+@media screen and (max-width: 550px){
+    .mobile-menu-icon{
+        transform: translateX(450px);
+    }
+
+    .section01-home{
+        height: 80rem;
+    }
+
+    #imagem-section{
+        transform: translate(-15px);
+    }
+
+    .div-conta{
+        margin-left: 10%;
+    }
+
+    .section03-para-você{
+        height: 35rem;
+    }
+
+    .cards-beneficios{
+        height: 12rem;
+    }
+
+    .section04-dia-a-dia{
+        height: 75rem;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section05-empreendedor{
+        height: 80rem;
+    }
+
+    .content-e{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-seguranca{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-left-seguranca img{
+        width: 28rem;
+    }
+
+    .div-compras{
+        width: 30rem;
+        margin-left: 6%;
+    }
+
+    .section07-app-aurora{
+        height: 60rem;
+    }
+
+    .section07-app-aurora img{
+        width: 30rem;
+        margin-left: 8%;
+    }
+
+    .app-frase h1{
+        font-size: 1.5rem;
+    }
+
+    .app-frase h2{
+        font-size: 1.1rem;
+        line-height: 2;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    .logo-bar{
+       transform: translateX(-220px);
+    }
+
+    .login-button{
+        transform: translateX(140px);
+    }
+
+    .mobile-menu-icon{
+        transform: translateX(330px);
+    }
+
+    .section01-home{
+        height: 75rem;
+    }
+
+    .section01-home h1{
+        font-size: 2rem;
+        margin-top: 15%;
+    }
+
+    .section01-home h2{
+        font-size: 1.2rem;
+    }
+
+    .div-conta{
+        width: 14rem;
+    }
+
+    .div-conta p{
+        margin-left: -8%;
+    }
+
+    .div-conta input{
+        width: 13rem;
+        margin-left: -8%;
+    }
+
+    .div-conta button{
+        margin-left: -8%;
+    }
+
+    #imagem-section{
+        transform: translate(-80px);
+    }
+
+    .section03-para-você{
+        height: 80rem;
+    }
+
+    .section04-dia-a-dia{
+        height: 83rem;
+    }
+
+    .section04-dia-a-dia img{
+        width: 14rem;
+    }
+
+    .section05-empreendedor img{
+         width: 14rem;
+    }
+
+    .header-area h2{
+        font-size: 1.3rem;
+        transform: translateX(-20px);
+    }
+
+    .arrow{
+        transform: translateX(50px);
+    }
+
+    .section06-seguranca{
+        height: 80rem;
+    }
+
+    .div-left-seguranca img{
+        width: 20rem;
+
+    }
+
+    .div-right-seguranca{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-compras{
+        height: 30rem;
+        width: 21rem;
+    }
+
+    .div-compras img{
+        margin-top: 70%;
+    }
+
+    .div-compras h1{
+        font-size: 1.3rem;
+    }
+
+    .div-compras h2{
+        font-size: 1.1rem;
+    }
+
+    .section07-app-aurora{
+       height: 53rem;
+    }
+
+    .app-frase h1{
+        font-size: 1.1rem;
+    }
+
+    .app-frase h2{
+        font-size: 0.9rem;
+    }
+
+    .app-frase h3{
+        font-size: 1.2rem;
+    }
+
+    .app-frase button{
+        width: 12rem;
+        font-size: 1rem;
+    }
+
+    .section07-app-aurora img{
+       transform: translateX(-30px);
+       width: 25rem;
+
+    }
+
+
+
+    
 }
 
