@@ -81,7 +81,6 @@ header{
     padding: 15px 20px;
     border-radius: 40px;
     transform: translateX(-200px);
-    
 
 }
 
@@ -604,6 +603,10 @@ header{
     opacity: 0.7;
 }
 
+@media screen and (max-width: 1500px){
+
+}
+
 @media screen and (max-width: 1200px){
     .nav-list{
         display: none;
@@ -664,3 +667,16 @@ header{
     }
 
 }
+
+@media screen and (max-width: 850px){
+
+}
+
+@media screen and (max-width: 550px){
+
+}
+
+@media screen and (max-width: 400px){
+    
+}
+
