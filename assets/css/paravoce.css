@@ -188,12 +188,7 @@ header{
     margin-bottom: 80px;
 }
 
-.div-title h2{
-    display: block;
-    font-size: 1rem;
-    font-weight: 300;
-    margin-bottom: 10px;;
-}
+
 
 .div-title h1{
     font-size: 2rem;
@@ -281,7 +276,6 @@ header{
 }
 
 .content-c{
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -712,20 +706,82 @@ header{
         grid-template-columns: 1fr 1fr;
         transform: translateX(20px);
     }
-
-
-
-
-    
-
 }
 
 @media screen and (max-width: 850px){
+     .login-button{
+        transform: translateX(400px);
+     }
 
+      .login-button button{
+           width: 8rem;
+      }
+
+      .section01-home{
+          height: 78rem;
+      }
+
+      .section01-home h1{
+        font-size: 2.2rem;
+      }
+
+      #imagem-section{
+        width: 67rem;
+         transform: translate(-150px, 48px);
+      }
+
+      .div-conta{
+        margin-left: 30%;
+      }
+
+     .section-clientes{
+        height: 42rem;
+     }
+
+      .div-title h1{
+         font-size: 1.7rem;
+      }
+
+      #title-link{
+        margin-left: 1%;
+      }
+
+      #link-voce{
+         transform: translateX(-50px);
+      }
+
+      .section-clientes02{
+         height: 36rem;
+      }
+
+      .container-sectionapp{
+         width: 35rem;
+      }
+
+      #celular-app{
+        transform: translate(-200px);
+      }
+
+      .texto-app{
+          transform: translateX(-380px);
+      }
+
+      .div-compras{
+          width: 40rem;
+          margin-left: 33%;
+      }
+
+      .div-compras img{
+        margin-top: 40%;
+      }
+
+      .slider-container{
+         transform: translateX(-50px);
+      }
 }
 
 @media screen and (max-width: 550px){
-
+     
 }
 
 @media screen and (max-width: 400px){
