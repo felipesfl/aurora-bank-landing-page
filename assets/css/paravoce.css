@@ -469,11 +469,6 @@ header{
     padding-bottom: 2rem;
 }
 
-.slider {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
 
 .slider-container {
     display: flex;
@@ -690,8 +685,36 @@ header{
 
     #imagem-section{
         transform: translate(300px, -585px);
-        
     }
+
+    .container-sectionapp{
+        width: 50rem;
+    }
+
+    #celular-app{
+        transform: translateX(-120px);
+    }
+
+    .texto-app{
+        transform: translateX(-200px);
+    }
+
+    .section-beneficios{
+        height: 43rem;
+    }
+
+    .div-compras{
+        width: 53rem;
+    }
+
+    .slider-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        transform: translateX(20px);
+    }
+
+
+
 
     
 
