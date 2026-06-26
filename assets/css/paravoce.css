@@ -821,14 +821,59 @@ header{
 
      .container-sectionapp{
         width: 15rem;
-        height: 50rem;
+        height: 47rem;
         display: flex;
         flex-direction: column;
      }
 
-     .texto-app{
-         transform: translateX(-10px);
+     #celular-app{
+        transform: translateX(20px);
      }
+
+     .texto-app{
+        width: 300px;
+         transform: translate(10px, -90px);
+     }
+
+     .texto-app h1{
+        width: 100%;
+        font-size: 1.5rem;
+     }
+
+     .div-loja-app{
+        display: flex;
+        flex-direction: column;
+        transform: translateX(50px);
+     }
+
+     .section-beneficios{
+        height: 80rem;
+     }
+
+     .div-compras{
+        width: 30rem
+     }
+
+     .section-cartoes{
+        height: 160rem;
+     }
+
+     #title-cartoes{
+         font-size: 1.7rem;
+     }
+
+     .slider-container{
+          display: flex;
+          flex-direction: column;
+          transform: translateX(30px);
+     }
+
+
+
+
+
+
+
 }
 
 @media screen and (max-width: 400px){
