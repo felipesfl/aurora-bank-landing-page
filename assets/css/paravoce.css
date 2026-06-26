@@ -781,7 +781,54 @@ header{
 }
 
 @media screen and (max-width: 550px){
-     
+     .login-button{
+        transform: translateX(150px);
+     }
+
+     .mobile-menu-icon{
+        transform: translateX(60px);
+     }
+
+     .section01-home h1{
+        font-size: 2rem;
+     }
+
+     .div-conta{
+        margin-left: 12%;
+     }
+
+     #imagem-section{
+        transform: translateX(-260px);
+     }
+
+     .section-clientes{
+        height: 70rem;
+     }
+
+     .content{
+        display: flex;
+        flex-direction: column;
+     }
+
+     .section-clientes02{
+         height: 70rem;
+     }
+
+     .content-c{
+        display: flex;
+        flex-direction: column;
+     }
+
+     .container-sectionapp{
+        width: 15rem;
+        height: 50rem;
+        display: flex;
+        flex-direction: column;
+     }
+
+     .texto-app{
+         transform: translateX(-10px);
+     }
 }
 
 @media screen and (max-width: 400px){
