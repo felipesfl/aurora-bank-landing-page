@@ -867,16 +867,62 @@ header{
           flex-direction: column;
           transform: translateX(30px);
      }
-
-
-
-
-
-
-
 }
 
 @media screen and (max-width: 400px){
-    
+      .login-button{
+          transform: translateX(30px);
+      }
+      
+      .section01-home{
+        height: 66rem;
+      }
+
+      .section01-home h2{
+         font-size: 1.2rem;
+      }
+
+      .div-conta{
+         width: 15rem;
+         margin-left: 9%;
+      }
+
+      .div-conta input{
+          width: 12rem;
+      }
+
+      #imagem-section{
+          width: 48rem;
+          transform: translateX(-200px);
+      }
+
+      .section-clientes{
+          height: 83rem;
+      }
+
+      .div-right img{
+          width: 20rem;
+      }
+
+      .div-left-c img{
+           width: 20rem;
+      }
+
+      .div-compras{
+          transform: translateX(-90px);
+          width: 20rem;
+      }
+
+      .slider-container{
+        transform: translateX(-20px);
+      }
+
+      #title-cartoes{
+          font-size: 1.3rem;
+      }
+
+      .cards-cartoes{
+        width: 18rem;
+      }
 }
 
