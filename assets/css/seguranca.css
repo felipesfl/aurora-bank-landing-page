@@ -13,7 +13,6 @@
    --cinza02: #fcfcfc;
 }
 
-@media (min-width: 1200px) {
     
 
 
@@ -226,12 +225,7 @@ header{
     opacity: 0.7;
 }
  
-}
-
-/* ===== MEDIA QUERIES - Responsive Design para telas menores ===== */
-
-/* Tablet Landscape - 992px até 1200px */
-@media screen and (max-width: 1200px) and (min-width: 993px){
+@media screen and (max-width: 1200px) {
     *{
         padding: 0;
         margin: 0;
@@ -731,16 +725,35 @@ header{
         padding: 0.5rem 0;
     }
 
+    .mobile-menu-icon{
+        transform: translateX(50px);
+    }
+
+    .logo-bar{
+        transform: translateX(-100px);
+    }
+
+    .section-busca input{
+        transform: translateX(100px);
+    }
+
 }
 
-@media screen and (max-width: 850px){
-
-}
-
-@media screen and (max-width: 550px){
-
-}
 
 @media screen and (max-width: 400px){
-    
+    .logo-bar{
+       
+    }
+
+    .login-button{
+       
+    }
+
+    .mobile-menu-icon{
+        
+    }
+    .section-busca input{
+        transform: translateX(-5px);
+        width: 3rem;
+    }
 }
