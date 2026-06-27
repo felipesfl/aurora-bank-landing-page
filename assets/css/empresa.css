@@ -1315,6 +1315,30 @@ button span{
 }
 
 @media screen and (max-width: 400px){
-      
+      .div-conta{
+        width: 15rem;
+        transform: translate(-10px);
+      }
+
+      .div-conta input{
+          width: 13rem;
+      }
+
+      #imagem-section{
+        width: 60rem;
+        transform: translate(-200px, 123px);
+      }
+
+      .content-empresa{
+        transform: translateX(30px);
+      }
+
+      .div-compras{
+        transform: translate(-80px);
+      }
+
+      .section-promocoes button{
+        margin-left: 5%;
+      }
 }
 
