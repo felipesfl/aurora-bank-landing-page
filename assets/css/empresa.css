@@ -313,23 +313,13 @@ header{
     margin-left: -55%;
 }
 
-#notificacao1{
-    transform: translate(15%, -13%);
-}
-
-#notificacao2{
-    transform: translate(-80%, -40%);
-}
-
-#notificacao3{
-    transform: translate(15%, -80%);
-}
-
 .div-right{
     flex: 1;
     display: flex;
     justify-content: center;
-}#title-section{
+}
+
+#title-section{
     margin-top: 5.5rem;
     text-align: center;
     font-size: 1.8rem;
@@ -1199,9 +1189,74 @@ button span{
         padding: 0.5rem 0;
     }
 
+    .logo-bar{
+        transform: translateX(-200px);
+    }
+
+    #imagem-section{
+        transform: translate(380px, -510px);
+    }
+
+    .content-empresa{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 10%;
+    }
+
+    .card-empresa-left{
+        width: 20rem;
+        
+    }
+
+    .card-empresa-left img{
+        margin-top: -43%;
+    }
+
+    .card-empresa-right{
+        width: 42rem;
+        height: 41rem;
+    }
+
+    .card-empresa-right h1{
+        margin-left: -5%;
+        color: black;
+    }
+
+    .div-compras{
+        margin-left: 23%;
+    }
 }
 
 @media screen and (max-width: 850px){
+     .mobile-menu-icon{
+        transform: translateX(50px);
+    }
+
+    .section01-home{
+        height: 78rem;
+    }
+
+    .section01-home h1{
+        font-size: 2rem;
+    }
+
+    #imagem-section{
+        transform: translate(-100px);
+    }
+
+    .content-empresa{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-empresa-left{
+        height: 40rem;
+    }
+
+    .card-empresa-left img{
+        margin-top: -10%;
+    }
+
 
 }
 
