@@ -1261,10 +1261,60 @@ button span{
 }
 
 @media screen and (max-width: 550px){
+    .nav-bar{
+        height: 2rem;
+    }
+
+    .logo-bar{
+        transform: translateX(-200px);
+    }
+
+    .logo-bar img{
+        width: 90px;
+        height: 90px;
+    }
+
+    .login-button{
+        transform: translateX(250px);
+    }
+
+    #imagem-section{
+        transform: translateX(-250px);
+    }
+
+    .card-empresa-left{
+        height: 35rem;
+    }
+
+    .card-empresa-left img{
+        margin-top: -5%;
+    }
+
+    .card-empresa-left h1{
+        font-size: 1.5rem;
+    }
+
+    .card-empresa-right{
+        width: 20rem;
+        height: 30rem;
+        transform: translateX(-45px);
+    }
+
+    #link-voce{
+        transform: translateX(-5px);
+    }
+
+    .div-right img{
+        width: 18rem;
+    }
+
+    .div-compras{
+        transform: translateX(-120px);
+    }
 
 }
 
 @media screen and (max-width: 400px){
-    
+      
 }
 
