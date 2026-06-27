@@ -1115,7 +1115,29 @@ button span{
 }
 
 @media screen and (max-width: 1500px){
+     .logo-bar{
+         transform: translateX(-300px);
+     }
 
+     .login-button{
+        transform: translateX(300px);
+     }
+
+     #imagem-section{
+        transform: translate(500px, -545px);
+     }
+
+     .card-empresa-left{
+        transform: translateX(-50px);
+     }
+
+     .card-empresa-right{
+         transform: translateX(-80px);
+     }
+
+     .div-compras{
+        transform: translateX(-150px);
+     }
 }
 
 @media screen and (max-width: 1200px){
