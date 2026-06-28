@@ -742,18 +742,26 @@ header{
 
 @media screen and (max-width: 400px){
     .logo-bar{
-       
+        transform: translate(-170px, 5px);
     }
 
-    .login-button{
-       
+    .logo-bar img{
+        width: 70px;
+        height: 70px;
     }
+     .login-button{
+        transform: translate(240px, 18px);
+     }
 
-    .mobile-menu-icon{
-        
-    }
-    .section-busca input{
-        transform: translateX(-5px);
-        width: 3rem;
-    }
+     .nav-bar{
+        height: 3rem;
+     }
+      #busca-duvida{
+        width: 20rem;
+        transform: translateX(50px);
+     }
+
+     .section-duvidas{
+        height: 35rem;
+     }
 }
