@@ -21,7 +21,7 @@ A Landing Page foi desenvolvida com o objetivo de apresentar o Aurora Bank de fo
 
 # Preview
 
-<img scr="assets/preview.png" alt="Preview do Aurora Bank" width="800">
+<img scr="preview.png" alt="Preview do Aurora Bank" width="800">
 
 ## Funcionalidades Futuras
  
