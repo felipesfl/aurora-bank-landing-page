@@ -1,26 +1,35 @@
-<img src="assets/images/aurorabank 2.svg" alt="">
-<h1  style="font-size: 60px;">Aurora Bank – Landing Page</h1>
+# Aurora Bank | Landing Page
 
-Bem-vindo ao repositório da Landing Page do Aurora Bank, um projeto moderno e totalmente responsivo  que apresenta a identidade visual de um banco digital ficticio.O objetivo deste projeto é demonstrar habilidades em HTMLL, CSS, JavaScript, e design responsivo, organização de layout e criação de interfaces inteligentes
+Landing Page institucional do **Aurora Bank**, um banco digital.O projeto apresenta de forma clara e objetiva os serviços oferecidos, destacando os benefícios para pessoa física e para empresas, além de uma seção à ajuda e segurança dos clientes
 
-<h2  style="font-size: 60px;">Visão Geral</h2>
-A landing page foi criada para transmitir modernidade, confiança e facilidade, valores associados ao universo do banco digital. <br>
-Ela inclui seções como: <br>
- Navegação completa com logo e botões de ação <br>
- Tela inicial com chamada principal <br>
- Empresas parceiras <br>
- Sessão "Para Você" com beneficios <br>
- Aprsentação do aplicativo Aurora Bank <br>
- Aurora Empresas <br>
- Avaliação de clientes<br>
- Área de segurança <br>
- Rodapé indtitucional completo <br>
+## Sobre o projeto
 
-<h2  style="font-size: 60px;">Tecnologias Utilizadas</h2>
- HTML - para estruturação semântica da página<br>
- CSS-  estilização completa, incluindo: Flexbox, Variaveis CSS, Efeitos hover, Cards estilizados<br>
- JavaScript - Para animações em algumas sessões do landing page<br>
+A Landing Page foi desenvolvida com o objetivo de apresentar o Aurora Bank de forma modern e intuitiva, guiando o visitante por todas as principais funcionalidades e diferenciais do do banco em diversas seções
 
-<h2  style="font-size: 60px;">Melhorias Futuras</h2>
-  Implementar responsividade total para o mobile<br>
-  Transformar em um tema React<br>
+## Seções
+
+- **Principal**: Visão geral de todas as funções e serviços oferecidos pelo Aurora Bank.
+- **Para Você**: Vantagens e beneficios exclusivos para clientes pessoa física.
+- **Para Empresa**: Vantagens e soluçẽs financeiras voltadas para empresa e empreendedores.
+- **Ajuda e Segurança**: Informações sobre suportre ao cliente e os mecanismos de segurança oferecidas pelo banco.
+
+## Tecnologias Utilizadas
+
+- **HTML5** - Estruturação de conteúdo;
+- **CSS3** - Estilização e resposividade.
+- **JavaScript** - Interatividade e dinamismo da página.
+
+# Preview
+
+<img scr="./assets/preview.png" alt="Preview do Aurora Bank" width="800">
+
+## Funcionalidades Futuras
+ 
+- [] Adicionar modo escuro
+- [] Implementar formulário de contato funcional
+
+# Contribuição
+
+Contribuição são bem-vindas! Sinta-se à vontade para abrir uma *issue* ou enviar um *pull request* com sugestôes de melhoria.
+
+---
